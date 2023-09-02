@@ -1,22 +1,6 @@
 package day02;
 
 
-/**
- * Scenario:
- * 1- Open the site.
- * 2- Subscribe to the Newsletter Subscribe operation (YES), check that the operation is successful.
- * 3- Unsubscribe from Newsletter Subscribe with a separate test (NO).
- * 4- Check the Newsletter Subscriber status with a separate test; If YES, say NO, if NO, say YES.
- * <p>
- * --------------------------------------------------------------------------------------------------
- * <p>
- * Senaryo:
- * 1- Siteyi açınız.
- * 2- Newsletter  Subscribe işlemini abone olunuz(YES), işlemin başarılı olduğunu kontrol ediniz.
- * 3- Ayrı bir test ile Newsletter Subscribe işlemini abonelikten çıkınız(NO).
- * 4- Ayrı bir test ile Newsletter Subscribe durumunu kontrol ediniz; YES ise NO, NO ise YES yapınız.
- */
-
 import utility.BaseDriver;
 import utility.MyFunction;
 import org.openqa.selenium.By;
@@ -24,6 +8,22 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class _04_SubscribeNewsLetter extends BaseDriver {
+
+    /**
+     * Scenario:
+     * 1- Open the site.
+     * 2- Subscribe to the Newsletter Subscribe operation (YES), check that the operation is successful.
+     * 3- Unsubscribe from Newsletter Subscribe with a separate test (NO).
+     * 4- Check the Newsletter Subscriber status with a separate test; If YES, say NO, if NO, say YES.
+     * <p>
+     * --------------------------------------------------------------------------------------------------
+     * <p>
+     * Senaryo:
+     * 1- Siteyi açınız.
+     * 2- Newsletter  Subscribe işlemini abone olunuz(YES), işlemin başarılı olduğunu kontrol ediniz.
+     * 3- Ayrı bir test ile Newsletter Subscribe işlemini abonelikten çıkınız(NO).
+     * 4- Ayrı bir test ile Newsletter Subscribe durumunu kontrol ediniz; YES ise NO, NO ise YES yapınız.
+     */
 
     By link = By.linkText("Newsletter");
     By subYes = By.xpath("//input[@value='1']");
