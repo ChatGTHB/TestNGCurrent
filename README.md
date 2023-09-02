@@ -1,1 +1,1 @@
-# Current TestNG Education
+# Current TestNG Training
