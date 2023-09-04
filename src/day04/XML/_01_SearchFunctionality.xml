@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit">
+
+    <test name="myTest1">
+        <parameter name="searchText" value="mac"></parameter>
+
+        <classes>
+            <class name="day04._01_SearchFunctionality"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest2">
+        <parameter name="searchText" value="samsung"></parameter>
+
+        <classes>
+            <class name="day04._01_SearchFunctionality"> </class>
+        </classes>
+    </test>
+
+</suite>
+
