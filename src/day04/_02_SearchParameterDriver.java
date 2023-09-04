@@ -30,7 +30,7 @@ public class _02_SearchParameterDriver extends BaseDriverParameter {
 
     @Test
     @Parameters("searchText")
-    void SearchFunction(String searchedWord) {
+    void searchFunction(String searchedWord) {
 
         WebElement searchInput = driver.findElement(By.name("search"));
         searchInput.sendKeys(searchedWord + Keys.ENTER);
