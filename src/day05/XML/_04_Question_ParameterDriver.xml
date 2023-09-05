@@ -6,7 +6,7 @@
         <parameter name="browserType" value="edge"></parameter>
 
         <classes>
-            <class name="day05._04_Question_ParameterDriver"> </class>
+            <class name="day05._04_Question_ParameterDriver"></class>
         </classes>
 
     </test>
@@ -15,7 +15,7 @@
         <parameter name="browserType" value="chrome"></parameter>
 
         <classes>
-            <class name="day05._04_Question_ParameterDriver"> </class>
+            <class name="day05._04_Question_ParameterDriver"></class>
         </classes>
 
     </test>
