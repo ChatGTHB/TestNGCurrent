@@ -8,10 +8,11 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utility.BaseDriver;
+import utility.BaseDriverParameter;
 
 import java.util.List;
 
-public class _04_Question_ParameterDriver extends BaseDriver {
+public class _04_Question_ParameterDriver extends BaseDriverParameter {
 
     /**
      * Do the Search function that we did in the previous lessons with dataprovider for mac, ipod and samsung.
