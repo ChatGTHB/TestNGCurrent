@@ -15,18 +15,18 @@ public class _01_WishList extends BaseDriver {
 
     /**
      Scenario ;
-     1- Go to the site..
+     1- Go to the site...
      2- Search "ipod" product, send "ipod" from xml
-     3- Click on the Add Wish button for a random elelamn from the resulting elements.
+     3- Click on the Add Wish button of a random element among the resulting elements.
      4- Then click on WishList
      5- Verify whether the name of the product that appears here is the same as the product that was clicked.
 
      ========================================================================================================
 
      Senaryo ;
-     1- Siteye gidiniz..
+     1- Siteye gidiniz.
      2- "ipod" ürününü aratınız."ipod" u xml den gönderiniz
-     3- çıkan elamnlardan random bir elelamnı Add Wish butonuna tıklayınız.
+     3- Çıkan elemanlardan random bir elemanın Add Wish butonuna tıklayınız.
      4- Daha sonra WishList e tıklatınız
      5- Burada çıkan ürünle tıklanan ürünün isminin aynı olup olmadığını doğrulayınız.
      */
@@ -38,15 +38,15 @@ public class _01_WishList extends BaseDriver {
         WebElement searchBox = driver.findElement(By.name("search"));
         searchBox.sendKeys(searchWord + Keys.ENTER);
 
-        List<WebElement> wishButtons=driver.findElements(  // wish buttons of products
+        List<WebElement> wishButtons=driver.findElements(  // Wish buttons of products
                 By.xpath("//button[@data-original-title='Add to Wish List']"));
 
-        List<WebElement> productList=driver.findElements( // titles of products
+        List<WebElement> productList=driver.findElements( // Titles of products
                 By.xpath("//div[@class='caption']//h4"));
 
         int randomSecim= MyFunction.randomGenerator(productList.size()); // A random number is generated
-        String wishItemText=productList.get(randomSecim).getText(); // The name of the product in random was taken
-        System.out.println("wishItemText = " + wishItemText); // Written for checking
+        String wishItemText=productList.get(randomSecim).getText();      // The name of the product in random was taken
+        System.out.println("wishItemText = " + wishItemText);            // Written for checking
 
         wishButtons.get(randomSecim).click(); // The wish button of the relevant Random product was clicked
 
