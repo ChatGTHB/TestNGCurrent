@@ -44,11 +44,11 @@ public class _01_WishList extends BaseDriver {
         List<WebElement> productList=driver.findElements( // Titles of products
                 By.xpath("//div[@class='caption']//h4"));
 
-        int randomSecim= MyFunction.randomGenerator(productList.size()); // A random number is generated
-        String wishItemText=productList.get(randomSecim).getText();      // The name of the product in random was taken
+        int randomSelection= MyFunction.randomGenerator(productList.size()); // A random number is generated
+        String wishItemText=productList.get(randomSelection).getText();      // The name of the product in random was taken
         System.out.println("wishItemText = " + wishItemText);            // Written for checking
 
-        wishButtons.get(randomSecim).click(); // The wish button of the relevant Random product was clicked
+        wishButtons.get(randomSelection).click(); // The wish button of the relevant Random product was clicked
 
         WebElement wishListLink= driver.findElement(By.xpath("//span[contains(text(),'Wish List')]"));
         wishListLink.click();
