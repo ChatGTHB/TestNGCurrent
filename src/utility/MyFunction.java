@@ -25,10 +25,10 @@ public class MyFunction {
         return (int) (Math.random() * limit);
     }
 
-    public static boolean listContainsString(List<WebElement> list, String aranacakKelime) {
+    public static boolean listContainsString(List<WebElement> list, String searchWord) {
         boolean found = false;
         for (WebElement e : list) {
-            if (e.getText().toLowerCase().equals(aranacakKelime.toLowerCase())) {
+            if (e.getText().toLowerCase().equals(searchWord.toLowerCase())) {
                 found = true;
                 break;
             }
