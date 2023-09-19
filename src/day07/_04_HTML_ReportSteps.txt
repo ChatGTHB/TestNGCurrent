@@ -1,0 +1,53 @@
+HTML Report Steps
+
+1- First, whichever module is to be run will be run
+and displayed on the screen, meaning it will be active.
+
+2- Go to Run Menu -> Edit configuration.
+(You can see that In-Single Mode and Project Name are selected.)
+
+3- In the section on the left, running under the TestNG heading
+   It can be seen that our module is active.
+
+4- Then click on Listeners from the section on the right.
+
+5- Click the + icon to the right of Listeners.
+
+6- Click on the SEARCH sign at the top of the drop-down list.
+   Search is made by typing "rep".
+
+7- When you type "rep", click on the top one of the results.
+   Select "EmailableReporter (testng)" and click OK.
+    It is seen that it is added to the list after it is closed.
+
+8- OK button is pressed.
+
+9- The test is run again and the teacher is followed (on video if not live).
+
+=============================================================================
+
+HTML Raporu Adımları
+
+1- Önce hangi çalışacak modül için yapılacaksa
+   o çalıştırılır ve ekrana alınır yani aktif olacak.
+
+2- Run Menüsünden -> Edit configuration gidilir.
+   (In-Single Mode ve Proje Adının seçili olduğu görülür.)
+
+3- Soldaki bölümde TestNG başlığının altında çalışan
+   modülümüzün aktif olduğu görülür.
+
+4- Sonra Sağdaki bölümden Listeners tıklanır.
+
+5- Listeners'ın sağındaki + simgesine tıklanır.
+
+6- Açılan Listenin üstündeki ARAMA işaretinin olduğu yere
+   "rep" yazılarak arama yapılır.
+
+7- "rep" yazdığınız anda çıkan sonuçlardan en üstteki
+   "EmailableReporter (testng)" olan seçilerek OK tıklatılır.
+    kapandıktan sonra listeye eklendiği görülür.
+
+8- OK tuşuna basılır.
+
+9- Test tekrar çalıştırılır ve hoca takip edilir (canlı değilse videodan).
