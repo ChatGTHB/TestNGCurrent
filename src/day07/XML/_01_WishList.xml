@@ -6,7 +6,7 @@
         <parameter name="searchText" value="ipod"></parameter>
 
         <classes>
-            <class name="day07._01_WishList"> </class>
+            <class name="day07._01_WishList"></class>
         </classes>
     </test>
 
