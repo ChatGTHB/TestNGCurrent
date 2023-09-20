@@ -22,7 +22,7 @@ and displayed on the screen, meaning it will be active.
 
 8- OK button is pressed.
 
-9- The test is run again and the teacher is followed (on video if not live).
+9- The test is run again.
 
 =============================================================================
 
@@ -50,4 +50,4 @@ HTML Raporu Adımları
 
 8- OK tuşuna basılır.
 
-9- Test tekrar çalıştırılır ve hoca takip edilir (canlı değilse videodan).
+9- Test tekrar çalıştırılır.
