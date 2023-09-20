@@ -1,5 +1,6 @@
 package utility;
 
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 import java.util.logging.Level;
@@ -16,9 +19,11 @@ import java.util.logging.Logger;
 public class BaseDriver {
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
+    public static final org.apache.logging.log4j.Logger logger4j = LogManager.getLogger();
 
     @BeforeClass
     public void initialOperations() {  // The condition of this is that it is extends and takes place in the first place.
+
         Logger logger = Logger.getLogger(""); // Get output logs.
         logger.setLevel(Level.SEVERE);              // Show only ERRORs
 
@@ -32,6 +37,7 @@ public class BaseDriver {
     }
 
     public void loginTest() {
+
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
         MyFunction.wait(2);
 
@@ -51,5 +57,15 @@ public class BaseDriver {
     public static void finishingOperations() {
         MyFunction.wait(5);
         driver.quit();
+    }
+
+    @BeforeMethod
+    public void beforeMethod() {
+        logger4j.info("Test Method has started.");
+    }
+
+    @AfterMethod
+    public void afterMethod() {
+        logger4j.info("Test Method has finished.");
     }
 }
