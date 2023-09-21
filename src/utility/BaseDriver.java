@@ -7,16 +7,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
+
 
 import java.time.Duration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class BaseDriver {
+
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
     public static final org.apache.logging.log4j.Logger logger4j = LogManager.getLogger();
