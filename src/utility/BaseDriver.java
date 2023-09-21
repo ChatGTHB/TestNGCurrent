@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -37,8 +38,13 @@ public class BaseDriver {
 
     public void loginTest() {
 
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
         MyFunction.wait(2);
+
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("details-button"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("proceed-link"))).click();
 
         WebElement inputEmail = driver.findElement(By.id("input-email"));
         inputEmail.sendKeys("testng1@gmail.com");
