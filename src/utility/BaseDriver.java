@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 
@@ -38,7 +39,7 @@ public class BaseDriver {
 
     public void loginTest() {
 
-        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
         MyFunction.wait(2);
@@ -70,7 +71,7 @@ public class BaseDriver {
     }
 
     @AfterMethod
-    public void afterMethod() {
-        logger4j.info("Test Method has finished.");
+    public void afterMethod(ITestResult result) {
+        logger4j.info(result.getName() + " test method has finished. --> " + (result.getStatus() == 1 ? "Passed" : "Failed"));
     }
 }
