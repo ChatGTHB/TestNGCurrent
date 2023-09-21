@@ -26,18 +26,18 @@ public class _01_GeneralQuestion extends BaseDriver {
         WebElement brandsLink = driver.findElement(By.linkText("Brands"));
         brandsLink.click();
 
-        List<WebElement> harfler = driver.findElements(By.cssSelector("[id='content'] > h2"));    // letters
+        List<WebElement> letters = driver.findElements(By.cssSelector("[id='content'] > h2"));    // letters
         List<WebElement> brandRows = driver.findElements(By.cssSelector("[id='content'] > div")); // brand rows
 
-        for (int i = 0; i < harfler.size(); i++) {
+        for (int i = 0; i < letters.size(); i++) {
 
-            List<WebElement> markalar = brandRows.get(i).findElements(By.tagName("div"));  // brands in it
+            List<WebElement> brands = brandRows.get(i).findElements(By.tagName("div"));  // brands in it
             // By.cssSelector("[class='col-sm-3']")
             // Note: xpath is not used when searching for an element in an element because it looks at the whole page.
 
-            for (WebElement marka : markalar) {
-                System.out.println(harfler.get(i).getText() + " " + marka.getText().charAt(0) + " " + marka.getText());
-                Assert.assertEquals(harfler.get(i).getText().charAt(0), marka.getText().charAt(0));
+            for (WebElement brand : brands) {
+                System.out.println(letters.get(i).getText() + " " + brand.getText().charAt(0) + " " + brand.getText());
+                Assert.assertEquals(letters.get(i).getText().charAt(0), brand.getText().charAt(0));
             }
         }
         // TODO: Those who want can test the same question from this site  https://www.ebay.com/n/all-brands
