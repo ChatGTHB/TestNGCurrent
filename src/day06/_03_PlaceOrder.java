@@ -67,7 +67,7 @@ public class _03_PlaceOrder extends BaseDriver {
         //wait.until(ExpectedConditions.urlToBe("http://opencart.abstracta.us/index.php?route=checkout/success"));
         wait.until(ExpectedConditions.urlContains("success"));
 
-        WebElement ekranYazi = driver.findElement(By.xpath("//div[@id='content']/h1"));
-        Assert.assertTrue(ekranYazi.getText().equals("Your order has been placed!"));
+        WebElement screenLetter = driver.findElement(By.xpath("//div[@id='content']/h1"));
+        Assert.assertTrue(screenLetter.getText().equals("Your order has been placed!"));
     }
 }
