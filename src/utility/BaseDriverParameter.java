@@ -1,6 +1,5 @@
 package utility;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,6 +25,7 @@ public class BaseDriverParameter {
     @BeforeClass
     @Parameters("browserType")
     public void initialOperations(String browserType) {
+
         Logger logger = Logger.getLogger("");
         logger.setLevel(Level.SEVERE);
 
@@ -55,6 +55,7 @@ public class BaseDriverParameter {
     }
 
     public void loginTest() {
+
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
         MyFunction.wait(2);
 
