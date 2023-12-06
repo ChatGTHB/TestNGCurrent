@@ -27,8 +27,8 @@ public class MyFunction {
 
     public static boolean listContainsString(List<WebElement> list, String searchWord) {
         boolean found = false;
-        for (WebElement e : list) {
-            if (e.getText().toLowerCase().equals(searchWord.toLowerCase())) {
+        for (WebElement exception : list) {
+            if (exception.getText().toLowerCase().equals(searchWord.toLowerCase())) {
                 found = true;
                 break;
             }
