@@ -5,7 +5,7 @@
     <test name="myTest1">
 
         <classes>
-            <class name="day03._02_Intro"> </class>
+            <class name="day02._03_Intro"></class>
         </classes>
 
     </test>
@@ -13,7 +13,7 @@
     <test name="myTest2">
 
         <classes>
-            <class name="day03._03_Intro"> </class>
+            <class name="day02._04_Intro"></class>
         </classes>
 
     </test>

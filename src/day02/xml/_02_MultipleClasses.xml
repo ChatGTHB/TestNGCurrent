@@ -3,9 +3,12 @@
 <suite name="mySuit">
 
     <test name="myTest1">
+
         <classes>
-            <class name="day03._02_Intro"> </class>
+            <class name="day02._03_Intro"></class>
+            <class name="day02._04_Intro"></class>
         </classes>
+
     </test>
 
 </suite>

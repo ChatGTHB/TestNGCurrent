@@ -6,7 +6,7 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class MyFunction {
+public class Tools {
     public static void wait(int sec) {
 
         try {

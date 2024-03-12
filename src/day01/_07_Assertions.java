@@ -1,9 +1,9 @@
-package day02;
+package day01;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class _03_Assertions {
+public class _07_Assertions {
 
     @Test
     public void equalsExample() {
@@ -22,7 +22,7 @@ public class _03_Assertions {
         String s1 = "Hello";
         String s2 = "Hello1";
 
-        Assert.assertNotEquals(s1, s2, "Actual and expected are not the same.");
+        Assert.assertNotEquals(s1, s2, "Actual and expected are not the different.");
     }
 
     @Test
@@ -32,6 +32,15 @@ public class _03_Assertions {
         String s2 = "Hello";
 
         Assert.assertTrue(s1.equals(s2), "Actual and expected are not the same.");
+    }
+
+    @Test
+    public void trueExample2() {
+
+        int number1 = 5;
+        int number2 = 5;
+
+        Assert.assertTrue(number1 == number2, "Actual and expected are not the same.");
     }
 
     @Test
@@ -45,7 +54,8 @@ public class _03_Assertions {
     @Test
     public void directFail() {
 
-        int a = 55;
+        int a = 56;
+
 
         if (a != 55) {
             Assert.fail();

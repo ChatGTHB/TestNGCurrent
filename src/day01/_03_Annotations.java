@@ -1,53 +1,29 @@
 package day01;
 
-
-import org.testng.annotations.*;
-
-/**
-       @BeforeClass --> will run at the beginning of the class (driver processes)
-
-            @BeforeMethod --> It will run before every method(test methods)
-                @Test --> methods in which tests run
-            @AfterMethod --> It will run after every method
-
-            @BeforeMethod --> It will run before every method(test methods)
-                @Test --> methods in which tests run
-            @AfterMethod --> It will run after every method
-
-         @AfterClass --> It will run at the end of Class's execution (driver off)
-
-beforeClass
-
-beforeMethod
-test1
-afterMethod
-
-beforeMethod
-test2
-afterMethod
-
-afterClass
-     */
-
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class _03_Annotations {
 
-    @Test
-    public void test1() { System.out.println("test 1 worked"); }
+    @AfterClass // It works after the inside of the class
+    public void bitisIslemleri() {
+        System.out.println("after class operations worked");
+    }
 
-    @Test
-    public void test2() { System.out.println("test 2 worked"); }
+    @Test // Annotation : specifies the type of method and its working properties
+    public void test1() {  // Test1 : test metodunun adı
+        System.out.println("test 1 worked");
+    }
 
-    @BeforeClass
-    public void beforeClass() { System.out.println("beforeClass worked"); }
+    @Test // Annotation : specifies the type of method and its working properties
+    public void test2() {  // Test1 : test metodunun adı
+        System.out.println("test 2 worked");
+    }
 
-    @AfterClass
-    public void afterClass() { System.out.println("afterClass worked"); }
-
-    @BeforeMethod
-    public void beforeMethod() { System.out.println("beforeMethod worked"); }
-
-    @AfterMethod
-    public void afterMethod() { System.out.println("afterMethod worked"); }
+    @BeforeClass  // It works before the inside of the class
+    public void baslangicIslemleri() {
+        System.out.println("after class operations worked");
+    }
 
 }

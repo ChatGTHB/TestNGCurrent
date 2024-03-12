@@ -57,7 +57,7 @@ public class BaseDriverParameter {
     public void loginTest() {
 
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
-        MyFunction.wait(2);
+        Tools.wait(2);
 
         WebElement inputEmail = driver.findElement(By.id("input-email"));
         inputEmail.sendKeys("testng1@gmail.com");
@@ -73,7 +73,7 @@ public class BaseDriverParameter {
 
     @AfterClass
     public void finishingOperations() {
-        MyFunction.wait(5);
+        Tools.wait(5);
         driver.quit();
     }
 }

@@ -14,3 +14,13 @@
 2023-09-21 21:50:47.299 INFO  addToCartTest Method has finished.Passed
 2023-09-21 21:53:18.210 INFO  Test Method has started.
 2023-09-21 21:53:19.305 INFO  addToCart test method has finished. --> Passed
+2024-03-12 21:41:44.731 INFO  Test Method has started.
+2024-03-12 21:42:03.991 INFO  loginTest test method has finished. --> Failed
+2024-03-12 22:10:03.692 INFO  Test Method has started.
+2024-03-12 22:10:04.675 INFO  subscribeFunctionYes test method has finished. --> Passed
+2024-03-12 22:10:04.678 INFO  Test Method has started.
+2024-03-12 22:10:05.633 INFO  subscribeFunctionNo test method has finished. --> Passed
+2024-03-12 22:10:05.634 INFO  Test Method has started.
+2024-03-12 22:10:06.573 INFO  subscribeFunctionForBoth test method has finished. --> Passed
+2024-03-12 22:29:30.463 INFO  Test Method has started.
+2024-03-12 22:29:32.965 INFO  editAccount test method has finished. --> Passed

@@ -42,10 +42,7 @@ public class BaseDriver {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
-        MyFunction.wait(2);
-
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("details-button"))).click();
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("proceed-link"))).click();
+        Tools.wait(2);
 
         WebElement inputEmail = driver.findElement(By.id("input-email"));
         inputEmail.sendKeys("testng1@gmail.com");
@@ -53,15 +50,16 @@ public class BaseDriver {
         WebElement inputpassword = driver.findElement(By.id("input-password"));
         inputpassword.sendKeys("123qweasd");
 
-        WebElement loginBtn = driver.findElement(By.xpath("//input[@type='submit']"));
-        loginBtn.click();
+        WebElement loginButton = driver.findElement(By.xpath("//input[@type='submit']"));
+        loginButton.click();
 
-        Assert.assertTrue(driver.getTitle().equals("My Account"));
+        wait.until(ExpectedConditions.titleIs("My Account"));
+        Assert.assertEquals(driver.getTitle(), "My Account");
     }
 
     @AfterClass
     public static void finishingOperations() {
-        MyFunction.wait(5);
+        Tools.wait(5);
         driver.quit();
     }
 

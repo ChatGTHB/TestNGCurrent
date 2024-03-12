@@ -1,7 +1,7 @@
 package day07;
 
 import utility.BaseDriver;
-import utility.MyFunction;
+import utility.Tools;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -44,7 +44,7 @@ public class _01_WishList extends BaseDriver {
         List<WebElement> productList = driver.findElements( // Titles of products
                 By.xpath("//div[@class='caption']//h4"));
 
-        int randomSelection = MyFunction.randomGenerator(productList.size()); // A random number is generated
+        int randomSelection = Tools.randomGenerator(productList.size()); // A random number is generated
         String wishItemText = productList.get(randomSelection).getText();      // The name of the product in random was taken
         System.out.println("wishItemText = " + wishItemText);            // Written for checking
 
@@ -57,7 +57,7 @@ public class _01_WishList extends BaseDriver {
         List<WebElement> wishList = driver.findElements(By.xpath("//td[@class='text-left']/a"));
 
         // Is the product we are looking for on the list or not?
-        boolean found = MyFunction.listContainsString(wishList, wishItemText);
+        boolean found = Tools.listContainsString(wishList, wishItemText);
 
         Assert.assertTrue(found, "The product assigned to the Wish List could not be found.");
     }

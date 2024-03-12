@@ -1,4 +1,4 @@
-package day02;
+package day01;
 
 import utility.BaseDriver;
 import org.openqa.selenium.By;
@@ -6,10 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class _02_Question extends BaseDriver {
+public class _06_Question extends BaseDriver {
 
     @Test
-    public void loginTest() {  // When this section will be tested, the method named logintesti from BaseDriver should be commented out.
+    public void loginTest() {  // When this section will be tested, the method named loginTest from BaseDriver should be commented out.
 
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
 

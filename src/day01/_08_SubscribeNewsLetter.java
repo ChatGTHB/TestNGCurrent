@@ -1,13 +1,13 @@
-package day02;
+package day01;
 
 
 import utility.BaseDriver;
-import utility.MyFunction;
+import utility.Tools;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class _04_SubscribeNewsLetter extends BaseDriver {
+public class _08_SubscribeNewsLetter extends BaseDriver {
 
     /**
      * Scenario:
@@ -25,49 +25,49 @@ public class _04_SubscribeNewsLetter extends BaseDriver {
      * 4- Ayrı bir test ile Newsletter Subscribe durumunu kontrol ediniz; YES ise NO, NO ise YES yapınız.
      */
 
-    By link = By.linkText("Newsletter");
-    By subYes = By.xpath("//input[@value='1']");
-    By subNo = By.xpath("//input[@value='0']");
-    By cntBtn = By.xpath("//input[@value='Continue']");
+    By newsLetterLinkLoc = By.linkText("Newsletter");
+    By subscribeYesLoc = By.xpath("//input[@value='1']");
+    By subscribeNoLoc = By.xpath("//input[@value='0']");
+    By continueButtonLoc = By.xpath("//input[@value='Continue']");
 
     @Test(priority = 1)
     public void subscribeFunctionYes() {
 
-        WebElement newsLetterLink = driver.findElement(link);
+        WebElement newsLetterLink = driver.findElement(newsLetterLinkLoc);
         newsLetterLink.click();
 
-        WebElement subscribeYes = driver.findElement(subYes);
+        WebElement subscribeYes = driver.findElement(subscribeYesLoc);
         subscribeYes.click();
 
-        WebElement continueButton = driver.findElement(cntBtn);
+        WebElement continueButton = driver.findElement(continueButtonLoc);
         continueButton.click();
 
-        MyFunction.successMessageValidation();
+        Tools.successMessageValidation();
     }
 
     @Test(priority = 2)
     public void subscribeFunctionNo() {
 
-        WebElement newsLetterLink = driver.findElement(link);
+        WebElement newsLetterLink = driver.findElement(newsLetterLinkLoc);
         newsLetterLink.click();
 
-        WebElement subscribeNo = driver.findElement(subNo);
+        WebElement subscribeNo = driver.findElement(subscribeNoLoc);
         subscribeNo.click();
 
-        WebElement continueButton = driver.findElement(cntBtn);
+        WebElement continueButton = driver.findElement(continueButtonLoc);
         continueButton.click();
 
-        MyFunction.successMessageValidation();
+        Tools.successMessageValidation();
     }
 
     @Test(priority = 3)
     public void subscribeFunctionForBoth() {
 
-        WebElement newsLetterLink = driver.findElement(link);
+        WebElement newsLetterLink = driver.findElement(newsLetterLinkLoc);
         newsLetterLink.click();
 
-        WebElement subscribeYes = driver.findElement(subYes);
-        WebElement subscribeNo = driver.findElement(subNo);
+        WebElement subscribeYes = driver.findElement(subscribeYesLoc);
+        WebElement subscribeNo = driver.findElement(subscribeNoLoc);
 
         // Click no if yes is selected, click yes if no is selected
         if (subscribeYes.isSelected()) {
@@ -75,10 +75,10 @@ public class _04_SubscribeNewsLetter extends BaseDriver {
         } else {
             subscribeYes.click();
         }
-        
-        WebElement continueButton = driver.findElement(cntBtn);
+
+        WebElement continueButton = driver.findElement(continueButtonLoc);
         continueButton.click();
 
-        MyFunction.successMessageValidation();
+        Tools.successMessageValidation();
     }
 }

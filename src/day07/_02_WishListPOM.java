@@ -2,7 +2,7 @@ package day07;
 
 import day06._04_PlaceOrder_Elements;
 import utility.BaseDriver;
-import utility.MyFunction;
+import utility.Tools;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
@@ -38,13 +38,13 @@ public class _02_WishListPOM extends BaseDriver {
 
         poe.searchBox.sendKeys(searchWord + Keys.ENTER);
 
-        int randomSelection = MyFunction.randomGenerator(wle.productList.size()); // A random number is generated
+        int randomSelection = Tools.randomGenerator(wle.productList.size()); // A random number is generated
         String wishItemText = wle.productList.get(randomSelection).getText();      // The name of the product in random was taken
         wle.wishButtons.get(randomSelection).click(); // The wish button of the relevant Random product was clicked
         wle.wishListLink.click();
 
         // Is the product we are looking for on the list or not?
-        boolean found = MyFunction.listContainsString(wle.wishList, wishItemText);
+        boolean found = Tools.listContainsString(wle.wishList, wishItemText);
         Assert.assertTrue(found, "The product assigned to the Wish List could not be found.");
     }
 }

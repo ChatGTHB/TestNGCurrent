@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utility.BaseDriver;
-import utility.MyFunction;
+import utility.Tools;
 
 /**
  Scenario :
@@ -34,13 +34,13 @@ public class _05_Question extends BaseDriver {
         _03_WishListElements wle=new _03_WishListElements();
         poe.searchBox.sendKeys("ipod" + Keys.ENTER);
 
-        int randomSelection= MyFunction.randomGenerator(wle.productList.size()); // A random number is generated
+        int randomSelection= Tools.randomGenerator(wle.productList.size()); // A random number is generated
         String cartItemText=wle.productList.get(randomSelection).getText(); // The name of the product in random was taken
 
         wle.addToChart.get(randomSelection).click(); // The wish button of the relevant random product was clicked
         wle.shoppingCart.click();
 
-        boolean found=MyFunction.listContainsString(wle.wishList, cartItemText);
+        boolean found= Tools.listContainsString(wle.wishList, cartItemText);
         Assert.assertTrue(found,"The requested product was not found in the cart list.");
     }
 }

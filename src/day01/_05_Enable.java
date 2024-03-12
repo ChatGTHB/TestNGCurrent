@@ -1,4 +1,4 @@
-package day02;
+package day01;
 
 
 import org.openqa.selenium.WebDriver;
@@ -7,27 +7,30 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import utility.MyFunction;
+import utility.Tools;
 
 import java.time.Duration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class _01_Enable {
+public class _05_Enable {
 
     @Test
     public void test1() {
-        System.out.println("test1 worked");
+        System.out.println("test1 done");
+        driver.get("https://techno.study/");
     }
 
     @Test(enabled = false)
     public void test2() {
-        System.out.println("test2 worked");
+        System.out.println("test2 done");
+        driver.get("https://www.facebook.com/");
     }
 
     @Test
     public void test3() {
-        System.out.println("test3 worked");
+        System.out.println("test3 done");
+        driver.get("https://www.google.com/");
     }
 
     public static WebDriver driver; // SingletonDriver method
@@ -47,7 +50,7 @@ public class _01_Enable {
 
     @AfterClass
     public static void finishingOperations() {
-        MyFunction.wait(5);
+        Tools.wait(5);
         driver.quit();
     }
 }
