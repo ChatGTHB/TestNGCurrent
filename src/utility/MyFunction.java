@@ -10,7 +10,7 @@ public class MyFunction {
     public static void wait(int sec) {
 
         try {
-            Thread.sleep(sec * 1000);
+            Thread.sleep(sec * 1000L);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -28,7 +28,7 @@ public class MyFunction {
     public static boolean listContainsString(List<WebElement> list, String searchWord) {
         boolean found = false;
         for (WebElement exception : list) {
-            if (exception.getText().toLowerCase().equals(searchWord.toLowerCase())) {
+            if (exception.getText().equalsIgnoreCase(searchWord)) {
                 found = true;
                 break;
             }
