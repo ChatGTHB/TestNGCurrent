@@ -22,6 +22,6 @@ public class _02_Question extends BaseDriver {
         WebElement loginBtn = driver.findElement(By.xpath("//input[@type='submit']"));
         loginBtn.click();
 
-        Assert.assertTrue(driver.getTitle().equals("My Account"));
+        Assert.assertEquals(driver.getTitle(), "My Account");
     }
 }
