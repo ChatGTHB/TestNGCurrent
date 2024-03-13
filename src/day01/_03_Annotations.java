@@ -13,12 +13,12 @@ public class _03_Annotations {
 
     @Test // Annotation : specifies the type of method and its working properties
     public void test1() {  // Test1 : test metodunun adı
-        System.out.println("test 1 worked");
+        System.out.println("test 1 done");
     }
 
     @Test // Annotation : specifies the type of method and its working properties
     public void test2() {  // Test1 : test metodunun adı
-        System.out.println("test 2 worked");
+        System.out.println("test 2 done");
     }
 
     @BeforeClass  // It works before the inside of the class
