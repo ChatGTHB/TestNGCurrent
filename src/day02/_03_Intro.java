@@ -25,7 +25,6 @@ import org.testng.annotations.*;
 
 public class _03_Intro {
 
-
     @BeforeSuite
     public void beforeSuite() {
         System.out.println("Before Suite");
@@ -86,14 +85,6 @@ public class _03_Intro {
         System.out.println("After Suite");
     }
 }
-
-
-
-
-
-
-
-
 
 
 
