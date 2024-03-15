@@ -4,6 +4,7 @@
 
     <test name="myTest1">
 
+        <!-- Which groups will NOT be run -->
         <groups>
             <run>
                 <exclude name="Smoke Test"></exclude>
@@ -11,8 +12,9 @@
         </groups>
 
 
+        <!--Section where the classes will be run are written-->
         <classes>
-            <class name="day03._04_Groups">
+            <class name="day03._01_Groups">
                 <methods>
                     <exclude name="test7"></exclude>
                 </methods>
@@ -22,3 +24,5 @@
     </test>
 
 </suite>
+
+        <!-- Run except Smoke Test, also excluding Test 7 -->

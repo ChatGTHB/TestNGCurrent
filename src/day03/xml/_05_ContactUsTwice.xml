@@ -6,7 +6,7 @@
         <parameter name="message" value="Hello testing world!"></parameter>
 
         <classes>
-            <class name="day03._07_ContactUsParameter"></class>
+            <class name="day03._03_ContactUsParameter"></class>
         </classes>
     </test>
 
@@ -14,7 +14,7 @@
         <parameter name="message" value="The most important feature of TestNG is XML file"></parameter>
 
         <classes>
-            <class name="day03._07_ContactUsParameter"></class>
+            <class name="day03._03_ContactUsParameter"></class>
         </classes>
     </test>
 

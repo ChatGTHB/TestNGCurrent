@@ -1,4 +1,4 @@
-package day04;
+package day03;
 
 
 import utility.BaseDriver;
@@ -11,16 +11,14 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class _01_SearchFunctionality extends BaseDriver {
+public class _04_SearchFunctionality extends BaseDriver {
     /**
      * Scenario:
      * 1- Open the site.
      * 2- Search by sending the word mac.
      * 3- Verify that the word "mac" is included in the results.
      * 4- Do the same for Samsung.
-     * <p>
      * ------------------------------------------------------------
-     * <p>
      * Senaryo:
      * 1- Siteyi açınız.
      * 2- mac kelimesini göndererek aratınız.

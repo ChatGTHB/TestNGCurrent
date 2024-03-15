@@ -4,6 +4,7 @@
 
     <test name="myTest1">
 
+        <!-- Which groups will NOT be run -->
         <groups>
             <run>
                 <exclude name="Smoke Test"></exclude>
@@ -11,10 +12,13 @@
         </groups>
 
 
+        <!--Section where the classes will be run are written-->
         <classes>
-            <class name="day03._04_Groups"> </class>
+            <class name="day03._01_Groups"></class>
         </classes>
 
     </test>
 
 </suite>
+
+        <!-- Run outside of Smoke Test -->

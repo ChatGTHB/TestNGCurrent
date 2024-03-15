@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="mySuit" parallel="tests" thread-count="3">
+
+    <test name="myTest1">
+        <parameter name="searchText" value="mac"></parameter>
+        <parameter name="browserType" value="edge"></parameter>
+
+        <classes>
+            <class name="day03._05_SearchCrossBrowser"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest2">
+        <parameter name="searchText" value="samsung"></parameter>
+        <parameter name="browserType" value="firefox"></parameter>
+
+        <classes>
+            <class name="day03._05_SearchCrossBrowser"> </class>
+        </classes>
+    </test>
+
+    <test name="myTest3">
+        <parameter name="searchText" value="samsung"></parameter>
+        <parameter name="browserType" value="chrome"></parameter>
+
+        <classes>
+            <class name="day03._05_SearchCrossBrowser"> </class>
+        </classes>
+    </test>
+
+</suite>
+
