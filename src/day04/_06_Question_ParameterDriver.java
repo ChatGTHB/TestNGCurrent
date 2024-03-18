@@ -1,4 +1,4 @@
-package day05;
+package day04;
 
 
 import org.openqa.selenium.By;
@@ -7,12 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import utility.BaseDriver;
 import utility.BaseDriverParameter;
 
 import java.util.List;
 
-public class _04_Question_ParameterDriver extends BaseDriverParameter {
+public class _06_Question_ParameterDriver extends BaseDriverParameter {
 
     /**
      * Do the Search function that we did in the previous lessons with dataprovider for mac, ipod and samsung.

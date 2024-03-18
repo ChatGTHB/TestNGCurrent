@@ -1,4 +1,4 @@
-package day06;
+package day05;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,6 +8,7 @@ public class _02_SoftAssertVsHardAssert {
 
     @Test
     public void hardAssert() {
+
         String s1 = "Hello!";
 
         System.out.println("Before Assert");
@@ -17,6 +18,7 @@ public class _02_SoftAssertVsHardAssert {
 
     @Test
     public void softAssert() {
+
         String strHomePage = "www.facebook.com/homepage";
         String strCartPage = "www.facebook.com/cartpage";
         String strEditAccount = "www.facebook.com/editaccountpage";

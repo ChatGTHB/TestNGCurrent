@@ -1,9 +1,9 @@
-package day05;
+package day04;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class _02_DataProvider_Multidimensional {
+public class _04_DataProvider_Multidimensional {
 
     @Test(dataProvider = "UserData")
     public void userTest(String username, String password) {

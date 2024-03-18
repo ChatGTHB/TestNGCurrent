@@ -1,4 +1,4 @@
-package day05;
+package day04;
 
 
 import utility.BaseDriver;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _05_GeneralQuestion extends BaseDriver {
+public class _07_GeneralQuestion extends BaseDriver {
 
     /**
      * Scenario

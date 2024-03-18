@@ -1,4 +1,4 @@
-package day05;
+package day04;
 
 
 import utility.BaseDriver;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class _03_Question extends BaseDriver {
+public class _05_Question extends BaseDriver {
 
     /**
      * Do the Search function that we did in the previous lessons with dataprovider for mac, ipod and samsung.
@@ -22,7 +22,7 @@ public class _03_Question extends BaseDriver {
      */
 
     @Test(dataProvider = "getData")
-    public void SearchFunction(String willBeSearchText) {
+    public void searchFunction(String willBeSearchText) {
 
         WebElement searchInput = driver.findElement(By.name("search"));
         searchInput.clear();

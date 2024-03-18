@@ -6,16 +6,16 @@
         <parameter name="browserType" value="edge"></parameter>
 
         <classes>
-            <class name="day05._04_Question_ParameterDriver"></class>
+            <class name="day04._01_Question"></class>
         </classes>
 
     </test>
 
     <test name="myTest2">
-        <parameter name="browserType" value="chrome"></parameter>
+        <parameter name="browserType" value="firefox"></parameter>
 
         <classes>
-            <class name="day05._04_Question_ParameterDriver"></class>
+            <class name="day04._01_Question"></class>
         </classes>
 
     </test>

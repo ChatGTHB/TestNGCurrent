@@ -1,12 +1,12 @@
-package day06;
+package day05;
 
-import utility.BaseDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utility.BaseDriver;
 
 public class _03_PlaceOrder extends BaseDriver {
 
@@ -33,7 +33,8 @@ public class _03_PlaceOrder extends BaseDriver {
      */
 
     @Test
-    public void ProceedToCheckout() {
+    public void proceedToCheckout() {
+
         WebElement searchBox = driver.findElement(By.name("search"));
         searchBox.sendKeys("ipod" + Keys.ENTER);
 
@@ -68,6 +69,6 @@ public class _03_PlaceOrder extends BaseDriver {
         wait.until(ExpectedConditions.urlContains("success"));
 
         WebElement screenLetter = driver.findElement(By.xpath("//div[@id='content']/h1"));
-        Assert.assertTrue(screenLetter.getText().equals("Your order has been placed!"));
+        Assert.assertEquals(screenLetter.getText(), "Your order has been placed!");
     }
 }

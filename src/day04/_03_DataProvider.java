@@ -1,9 +1,9 @@
-package day05;
+package day04;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class _01_DataProvider {
+public class _03_DataProvider {
 
     @Test(dataProvider = "myData")
     public void searchTest(String willBeSearchText) {
