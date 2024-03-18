@@ -1,4 +1,4 @@
-package day07;
+package day06;
 
 import org.openqa.selenium.support.PageFactory;
 import utility.BaseDriver;
@@ -8,9 +8,9 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class _03_WishListElements {
+public class _02_WishListElements {
 
-    public _03_WishListElements() {
+    public _02_WishListElements() {
         PageFactory.initElements(BaseDriver.driver,this);
     }
 

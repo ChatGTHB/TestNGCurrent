@@ -1,6 +1,5 @@
-package day07;
+package day06;
 
-import day06._04_PlaceOrder_Elements;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -25,13 +24,13 @@ import utility.Tools;
  6- POM ile çözünüz.
  */
 
-public class _05_Question extends BaseDriver {
+public class _03_Question extends BaseDriver {
 
     @Test
     public void addToCart() {
 
-        _04_PlaceOrder_Elements poe=new _04_PlaceOrder_Elements();
-        _03_WishListElements wle=new _03_WishListElements();
+        _01_PlaceOrder_Elements poe=new _01_PlaceOrder_Elements();
+        _02_WishListElements wle=new _02_WishListElements();
         poe.searchBox.sendKeys("ipod" + Keys.ENTER);
 
         int randomSelection= Tools.randomGenerator(wle.productList.size()); // A random number is generated

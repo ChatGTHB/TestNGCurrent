@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class _04_PlaceOrder_Elements {
+public class _01_PlaceOrder_Elements {
 
     /**
      * Scenario :
@@ -29,7 +29,7 @@ public class _04_PlaceOrder_Elements {
      * Not: Doğrulamayı çıkan sayfadaki "Your order has been placed" yazısı ile yapınız.
      */
 
-    public _04_PlaceOrder_Elements() {
+    public _01_PlaceOrder_Elements() {
         PageFactory.initElements(BaseDriver.driver, this);
     }
 

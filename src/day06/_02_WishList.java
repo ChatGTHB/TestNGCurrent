@@ -1,4 +1,4 @@
-package day07;
+package day06;
 
 import utility.BaseDriver;
 import utility.Tools;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class _01_WishList extends BaseDriver {
+public class _02_WishList extends BaseDriver {
 
     /**
      * Scenario ;

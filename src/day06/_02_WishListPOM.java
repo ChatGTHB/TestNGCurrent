@@ -1,6 +1,5 @@
-package day07;
+package day06;
 
-import day06._04_PlaceOrder_Elements;
 import utility.BaseDriver;
 import utility.Tools;
 import org.openqa.selenium.Keys;
@@ -33,8 +32,8 @@ public class _02_WishListPOM extends BaseDriver {
     @Parameters("searchText")
     public void addToWishList(String searchWord) {
 
-        _04_PlaceOrder_Elements poe = new _04_PlaceOrder_Elements();
-        _03_WishListElements wle = new _03_WishListElements();
+        _01_PlaceOrder_Elements poe = new _01_PlaceOrder_Elements();
+        _02_WishListElements wle = new _02_WishListElements();
 
         poe.searchBox.sendKeys(searchWord + Keys.ENTER);
 
