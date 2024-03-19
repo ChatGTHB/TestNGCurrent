@@ -24,7 +24,8 @@ public class _03_DataProvider {
         System.out.println("data = " + data);
     }
 
-    @DataProvider(name = "datas") // You can give it a name if you want.
+    @DataProvider(name = "datas")
+        // You can give it a name if you want.
     Object[] getData() {
         Object[] data = {1, 2, 3, 4, 5, 6};
 

@@ -34,13 +34,14 @@ public class _01_Question extends BaseDriverParameter {
 
     @Test
     public void test() {
+
         WebElement specials = driver.findElement(By.linkText("Specials"));
         specials.click();
 
-        List<WebElement> newPrices = driver.findElements(By.cssSelector("span[class='price-new']")); //$80 $90
-        List<WebElement> oldPrices = driver.findElements(By.cssSelector("span[class='price-old']")); //$100 $100
+        List<WebElement> newPrices = driver.findElements(By.cssSelector("span[class='price-new']")); // $80 $90
+        List<WebElement> oldPrices = driver.findElements(By.cssSelector("span[class='price-old']")); // $100 $100
 
-        Assert.assertTrue(newPrices.size() == oldPrices.size(), "No discounts were found on all of them."); // 3-
+        Assert.assertEquals(oldPrices.size(), newPrices.size(), "No discounts were found on all of them."); // 3-
 
         for (int i = 0; i < newPrices.size(); i++) { // 2 times
             double newPrice = Double.parseDouble(newPrices.get(i).getText().replaceAll("[^0-9.,]", ""));

@@ -14,11 +14,11 @@ import java.util.List;
 public class _06_Question_ParameterDriver extends BaseDriverParameter {
 
     /**
-     * Do the Search function that we did in the previous lessons with dataprovider for mac, ipod and samsung.
+     * Do the Search function that we did in the previous lessons with data provider for mac, ipod and samsung.
      * <p>
      * ----------------------*****************************************---------------------------------------
      * <p>
-     * Daha önceki derslerde yaptğımız Search fonksiyonunu mac,ipod ve samsung için dataprovider ile yapınız.
+     * Daha önceki derslerde yaptğımız Search fonksiyonunu mac,ipod ve samsung için data provider ile yapınız.
      */
 
     @Test(dataProvider = "getData")
@@ -31,15 +31,15 @@ public class _06_Question_ParameterDriver extends BaseDriverParameter {
         List<WebElement> captions = driver.findElements(By.cssSelector("[class='caption'] > h4"));
 
         for (WebElement caption : captions) {
-            //System.out.println("caption.getText() = " + caption.getText());
+            System.out.println("caption.getText() = " + caption.getText());
             Assert.assertTrue(caption.getText().toLowerCase().contains(willBeSearchText), "Search word not found.");
         }
     }
 
     @DataProvider
     Object[] getData() {
-        Object[] data = {"mac", "samsung", "ipod"};
+        Object[] objects = {"mac", "samsung", "ipod"};
 
-        return data;
+        return objects;
     }
 }

@@ -1,17 +1,24 @@
 package day04;
 
-/*
-
-   Senaryo
-   1- Siteye gidiniz
-   2- Your Store tiklayiniz, (Ana sayfaya gidiniz)
-   3- Cikan urun lerde (bütün ürünlerde indirim var mı, eski fiyat yeni fiyat var mı)
-      kontrol edin, indirimde olan ürünlerin miktarını bulunuz.
-   4- Yukarıdaki işlemden sonra indirimde olan ürünleri önceki fiyatının şu andaki fiyattan
-      yüksek olduğunu doğrulayınız.
-
-*/
-
+/**
+ * Scenario:
+ * 1- Go to the site
+ * 2- Click Your Store, (Go to the home page)
+ * 3- Check the products that are on sale (are there any discounts on all products,
+ * are there old prices and new prices), find the quantity of products on sale.
+ * 4- After the above process, verify that the previous price of the products on sale
+ * is higher than the current price.
+ * <p>
+ * -------------------------------------------------------------------------------------------------- *
+ * <p>
+ * Senaryo:
+ * 1- Siteye gidiniz
+ * 2- Your Store tiklayiniz, (Ana sayfaya gidiniz)
+ * 3- Cikan urun lerde (bütün ürünlerde indirim var mı, eski fiyat yeni fiyat var mı) kontrol edin,
+ * indirimde olan ürünlerin miktarını bulunuz.
+ * 4- Yukarıdaki işlemden sonra indirimde olan ürünleri önceki fiyatının
+ * şu andaki fiyattan yüksek olduğunu doğrulayınız.
+ */
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -37,7 +44,7 @@ public class _02_Question extends BaseDriver {
 
             List<WebElement> newPrice = products.get(i).findElements(By.cssSelector("span[class='price-new']")); //
 
-            if (newPrice.size() > 0) // It means there is a discount
+            if (!newPrice.isEmpty()) // It means there is a discount
             {
                 WebElement nPrice = products.get(i).findElement(By.cssSelector("span[class='price-new']"));
                 WebElement oPrice = products.get(i).findElement(By.cssSelector("span[class='price-old']"));
@@ -47,12 +54,10 @@ public class _02_Question extends BaseDriver {
                 System.out.println("Old Price = " + oldPriceDouble + " - New Price" + "=" + newPriceDouble);
 
                 Assert.assertTrue(newPriceDouble < oldPriceDouble, "The new price is not lower.");
-
                 discountedProductQuantity++;
             } else // Means no discount
             {
                 System.out.println("products.get(i).getText() = " + products.get(i).getText());
-
                 productQuantitiesWithoutDiscount++;
             }
         }

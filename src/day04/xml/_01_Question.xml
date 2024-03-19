@@ -3,23 +3,20 @@
 <suite name="mySuit" parallel="tests" thread-count="2">
 
     <test name="myTest1">
-        <parameter name="browserType" value="edge"></parameter>
+        <parameter name="browserType" value="edge"/>
 
         <classes>
-            <class name="day04._01_Question"></class>
+            <class name="day04._01_Question"/>
         </classes>
-
     </test>
 
     <test name="myTest2">
-        <parameter name="browserType" value="firefox"></parameter>
+        <parameter name="browserType" value="firefox"/>
 
         <classes>
-            <class name="day04._01_Question"></class>
+            <class name="day04._01_Question"/>
         </classes>
-
     </test>
-
 
 </suite>
 
