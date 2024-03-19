@@ -27,8 +27,8 @@ public class _03_ContactUsParameter extends BaseDriver {
     @Parameters("message") // must be the same name as in xml
     public void contactUs(String incomingMessage){
 
-        WebElement contactUsBtn= driver.findElement(By.linkText("Contact Us"));
-        contactUsBtn.click();
+        WebElement contactUsButton= driver.findElement(By.linkText("Contact Us"));
+        contactUsButton.click();
 
         WebElement enquiryArea= driver.findElement(By.id("input-enquiry"));
         enquiryArea.sendKeys(incomingMessage);

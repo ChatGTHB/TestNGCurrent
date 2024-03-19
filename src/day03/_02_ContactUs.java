@@ -26,8 +26,8 @@ public class _02_ContactUs extends BaseDriver {
     @Test
     public void contactUs(){
 
-        WebElement contactUsBtn= driver.findElement(By.linkText("Contact Us"));
-        contactUsBtn.click();
+        WebElement contactUsButton= driver.findElement(By.linkText("Contact Us"));
+        contactUsButton.click();
 
         WebElement enquiryArea= driver.findElement(By.id("input-enquiry"));
         enquiryArea.sendKeys("Hello testing world!");

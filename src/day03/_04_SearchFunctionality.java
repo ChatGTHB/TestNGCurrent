@@ -38,7 +38,7 @@ public class _04_SearchFunctionality extends BaseDriver {
 
         for (WebElement caption : captions) {
             //System.out.println("caption.getText() = " + caption.getText());
-            Assert.assertTrue(caption.getText().toLowerCase().contains(searchedWord), "search word not found");
+            Assert.assertTrue(caption.getText().toLowerCase().contains(searchedWord.toLowerCase()), "Search word not found.");
         }
     }
 }

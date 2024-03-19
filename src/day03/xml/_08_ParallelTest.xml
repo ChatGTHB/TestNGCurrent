@@ -3,8 +3,8 @@
 <suite name="mySuit" parallel="tests" thread-count="3">
 
     <test name="myTest1">
-        <parameter name="searchText" value="mac"></parameter>
-        <parameter name="browserType" value="edge"></parameter>
+        <parameter name="searchText" value="mac"/>
+        <parameter name="browserType" value="edge"/>
 
         <classes>
             <class name="day03._05_SearchCrossBrowser"> </class>
@@ -12,8 +12,8 @@
     </test>
 
     <test name="myTest2">
-        <parameter name="searchText" value="samsung"></parameter>
-        <parameter name="browserType" value="firefox"></parameter>
+        <parameter name="searchText" value="samsung"/>
+        <parameter name="browserType" value="firefox"/>
 
         <classes>
             <class name="day03._05_SearchCrossBrowser"> </class>
@@ -21,8 +21,8 @@
     </test>
 
     <test name="myTest3">
-        <parameter name="searchText" value="samsung"></parameter>
-        <parameter name="browserType" value="chrome"></parameter>
+        <parameter name="searchText" value="samsung"/>
+        <parameter name="browserType" value="chrome"/>
 
         <classes>
             <class name="day03._05_SearchCrossBrowser"> </class>

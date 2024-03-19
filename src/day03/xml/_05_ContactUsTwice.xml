@@ -3,18 +3,18 @@
 <suite name="mySuit">
 
     <test name="myTest1">
-        <parameter name="message" value="Hello testing world!"></parameter>
+        <parameter name="message" value="Hello testing world!"/>
 
         <classes>
-            <class name="day03._03_ContactUsParameter"></class>
+            <class name="day03._03_ContactUsParameter"/>
         </classes>
     </test>
 
     <test name="myTest2">
-        <parameter name="message" value="The most important feature of TestNG is XML file"></parameter>
+        <parameter name="message" value="The most important feature of TestNG is XML file"/>
 
         <classes>
-            <class name="day03._03_ContactUsParameter"></class>
+            <class name="day03._03_ContactUsParameter"/>
         </classes>
     </test>
 
