@@ -47,8 +47,8 @@ public class BaseDriver {
         WebElement inputEmail = driver.findElement(By.id("input-email"));
         inputEmail.sendKeys("testng1@gmail.com");
 
-        WebElement inputpassword = driver.findElement(By.id("input-password"));
-        inputpassword.sendKeys("123qweasd");
+        WebElement inputPassword = driver.findElement(By.id("input-password"));
+        inputPassword.sendKeys("123qweasd");
 
         WebElement loginButton = driver.findElement(By.xpath("//input[@type='submit']"));
         loginButton.click();

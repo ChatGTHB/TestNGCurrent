@@ -13,7 +13,7 @@
 
     <test name="myTest2">
         <parameter name="searchText" value="samsung"/>
-        <parameter name="browserType" value="firefox"/>
+        <parameter name="browserType" value="chrome"/>
 
         <classes>
             <class name="day03._05_SearchCrossBrowser"> </class>

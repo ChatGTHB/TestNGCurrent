@@ -37,8 +37,8 @@ public class _05_SearchCrossBrowser extends BaseDriverParameter {
                 (By.cssSelector("[class='caption'] > h4"));
 
         for (WebElement caption : captions) {
-            //System.out.println("caption.getText() = " + caption.getText());
-            Assert.assertTrue(caption.getText().toLowerCase().contains(searchedWord), "search word not found");
+            System.out.println("caption.getText() = " + caption.getText());
+            Assert.assertTrue(caption.getText().toLowerCase().contains(searchedWord), "Searched word not found.");
         }
     }
 }

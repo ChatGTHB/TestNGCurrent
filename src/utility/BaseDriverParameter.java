@@ -57,18 +57,17 @@ public class BaseDriverParameter {
     public void loginTest() {
 
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
-        Tools.wait(2);
 
         WebElement inputEmail = driver.findElement(By.id("input-email"));
         inputEmail.sendKeys("testng1@gmail.com");
 
-        WebElement inputpassword = driver.findElement(By.id("input-password"));
-        inputpassword.sendKeys("123qweasd");
+        WebElement inputPassword = driver.findElement(By.id("input-password"));
+        inputPassword.sendKeys("123qweasd");
 
-        WebElement loginBtn = driver.findElement(By.xpath("//input[@type='submit']"));
-        loginBtn.click();
+        WebElement loginButton = driver.findElement(By.xpath("//input[@type='submit']"));
+        loginButton.click();
 
-        Assert.assertTrue(driver.getTitle().equals("My Account"));
+        Assert.assertEquals(driver.getTitle(), "My Account");
     }
 
     @AfterClass
