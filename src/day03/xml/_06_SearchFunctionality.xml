@@ -3,7 +3,7 @@
 <suite name="mySuit">
 
     <test name="myTest1">
-        <parameter name="searchText" value="mac"></parameter>
+        <parameter name="searchText" value="mac"/>
 
         <classes>
             <class name="day03._04_SearchFunctionality"> </class>
@@ -11,7 +11,7 @@
     </test>
 
     <test name="myTest2">
-        <parameter name="searchText" value="samsung"></parameter>
+        <parameter name="searchText" value="samsung"/>
 
         <classes>
             <class name="day03._04_SearchFunctionality"> </class>

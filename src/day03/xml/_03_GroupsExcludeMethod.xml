@@ -3,11 +3,10 @@
 <suite name="mySuit">
 
     <test name="myTest1">
-
         <!-- Which groups will NOT be run -->
         <groups>
             <run>
-                <exclude name="Smoke Test"></exclude>
+                <exclude name="Smoke Test"/>
             </run>
         </groups>
 
@@ -16,13 +15,12 @@
         <classes>
             <class name="day03._01_Groups">
                 <methods>
-                    <exclude name="test7"></exclude>
+                    <exclude name="test7"/>
                 </methods>
             </class>
         </classes>
-
     </test>
 
 </suite>
 
-        <!-- Run except Smoke Test, also excluding Test 7 -->
+        <!-- Run except Smoke Test, also excluding test 7 -->

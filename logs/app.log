@@ -24,3 +24,15 @@
 2024-03-12 22:10:06.573 INFO  subscribeFunctionForBoth test method has finished. --> Passed
 2024-03-12 22:29:30.463 INFO  Test Method has started.
 2024-03-12 22:29:32.965 INFO  editAccount test method has finished. --> Passed
+2024-03-19 19:51:42.392 INFO  Test Method has started.
+2024-03-19 19:51:43.737 INFO  contactUs test method has finished. --> Passed
+2024-03-19 19:52:53.784 INFO  Test Method has started.
+2024-03-19 19:52:55.111 INFO  contactUs test method has finished. --> Passed
+2024-03-19 21:04:11.943 INFO  Test Method has started.
+2024-03-19 21:04:13.212 INFO  contactUs test method has finished. --> Passed
+2024-03-19 21:04:25.474 INFO  Test Method has started.
+2024-03-19 21:04:26.745 INFO  contactUs test method has finished. --> Passed
+2024-03-19 21:08:55.479 INFO  Test Method has started.
+2024-03-19 21:08:56.500 INFO  searchFunction test method has finished. --> Passed
+2024-03-19 21:09:08.467 INFO  Test Method has started.
+2024-03-19 21:09:09.197 INFO  searchFunction test method has finished. --> Passed
