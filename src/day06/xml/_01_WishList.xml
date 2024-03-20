@@ -3,10 +3,10 @@
 <suite name="mySuit">
 
     <test name="myTest1">
-        <parameter name="searchText" value="ipod"></parameter>
+        <parameter name="searchText" value="ipod"/>
 
         <classes>
-            <class name="day06._02_WishList"></class>
+            <class name="day06._02_WishList"/>
         </classes>
     </test>
 

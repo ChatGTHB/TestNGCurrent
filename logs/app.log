@@ -634,3 +634,15 @@
 2024-03-20 17:15:43.247 INFO  brandsValidation test method has finished. --> Passed
 2024-03-20 17:42:33.190 INFO  Test Method has started.
 2024-03-20 17:42:41.746 INFO  proceedToCheckout test method has finished. --> Passed
+2024-03-20 23:17:36.265 INFO  Test Method has started.
+2024-03-20 23:17:36.297 INFO  proceedToCheckout test method has finished. --> Failed
+2024-03-20 23:18:19.107 INFO  Test Method has started.
+2024-03-20 23:18:19.143 INFO  proceedToCheckout test method has finished. --> Failed
+2024-03-20 23:20:22.726 INFO  Test Method has started.
+2024-03-20 23:20:22.763 INFO  proceedToCheckout test method has finished. --> Failed
+2024-03-20 23:21:05.363 INFO  Test Method has started.
+2024-03-20 23:21:05.382 INFO  proceedToCheckout test method has finished. --> Failed
+2024-03-20 23:21:52.040 INFO  Test Method has started.
+2024-03-20 23:22:00.414 INFO  proceedToCheckout test method has finished. --> Passed
+2024-03-20 23:37:07.002 INFO  Test Method has started.
+2024-03-20 23:37:08.994 INFO  addToWishList test method has finished. --> Passed

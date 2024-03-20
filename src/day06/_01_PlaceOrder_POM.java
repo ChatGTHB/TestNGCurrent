@@ -32,7 +32,7 @@ public class _01_PlaceOrder_POM extends BaseDriver {
 
 
     @Test
-    public void ProceedToCheckout() {
+    public void proceedToCheckout() {
 
         _01_PlaceOrder_Elements elements = new _01_PlaceOrder_Elements();
 
@@ -51,6 +51,6 @@ public class _01_PlaceOrder_POM extends BaseDriver {
 
         wait.until(ExpectedConditions.urlContains("success"));
 
-        Assert.assertTrue(elements.msg.getText().equals("Your order has been placed!"));
+        Assert.assertEquals(elements.msg.getText(), "Your order has been placed!");
     }
 }
