@@ -18,7 +18,7 @@ public class _03_PlaceOrder extends BaseDriver {
      * 4- Click on Shopping Chart.
      * 5- Checkout.
      * 6- Click Continue and enter the information.
-     * 7- Confirm that you have placed the order with en confirm.
+     * 7- Confirm that you have placed the order with the last confirm.
      * Note: Verify with the text "Your order has been placed" on the page that appears.
      * <p>
      * Senaryo :
@@ -27,8 +27,8 @@ public class _03_PlaceOrder extends BaseDriver {
      * 3- Çıkan sonuçlardan ilkini sepete atınız.
      * 4- Shopping Chart a tıklatınız.
      * 5- Checkout yapınız.
-     * 6- Continue butonalarına tıklatıp bilgileri giriniz.
-     * 7- En confirm ile siparişi verdiğinizi doğrulayınız.
+     * 6- Continue butonlarına tıklatıp bilgileri giriniz.
+     * 7- En son confirm ile siparişi verdiğinizi doğrulayınız.
      * Not: Doğrulamayı çıkan sayfadaki "Your order has been placed" yazısı ile yapınız.
      */
 

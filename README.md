@@ -11,9 +11,7 @@
 ## XML
 ## Dependency
 ## Data Provider
-## Data Provider
-## Data Provider
 ## Parameter Driver
 ## Asserts
-## POM
+## Place Order
 ## HTML Report
