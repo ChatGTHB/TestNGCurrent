@@ -13,5 +13,5 @@
 ## Data Provider
 ## Parameter Driver
 ## Asserts
-## Place Order
+## POM
 ## HTML Report

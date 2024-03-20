@@ -632,3 +632,5 @@
 2024-03-20 13:43:44.544 INFO  loginTest test method has finished. --> Passed
 2024-03-20 17:15:42.477 INFO  Test Method has started.
 2024-03-20 17:15:43.247 INFO  brandsValidation test method has finished. --> Passed
+2024-03-20 17:42:33.190 INFO  Test Method has started.
+2024-03-20 17:42:41.746 INFO  proceedToCheckout test method has finished. --> Passed
