@@ -646,3 +646,15 @@
 2024-03-20 23:22:00.414 INFO  proceedToCheckout test method has finished. --> Passed
 2024-03-20 23:37:07.002 INFO  Test Method has started.
 2024-03-20 23:37:08.994 INFO  addToWishList test method has finished. --> Passed
+2024-03-21 15:04:27.300 INFO  Test Method has started.
+2024-03-21 15:04:28.647 INFO  test02 test method has finished. --> Failed
+2024-03-21 15:05:50.946 INFO  Test Method has started.
+2024-03-21 15:05:52.314 INFO  test02 test method has finished. --> Failed
+2024-03-21 15:06:24.755 INFO  Test Method has started.
+2024-03-21 15:06:27.622 INFO  test02 test method has finished. --> Passed
+2024-03-21 15:12:49.039 INFO  Test Method has started.
+2024-03-21 15:12:51.625 INFO  softAssertTesting test method has finished. --> Passed
+2024-03-21 15:13:13.572 INFO  Test Method has started.
+2024-03-21 15:13:16.069 INFO  hardAssertTesting test method has finished. --> Passed
+2024-03-21 15:13:16.071 INFO  Test Method has started.
+2024-03-21 15:13:47.834 INFO  softAssertTesting test method has finished. --> Passed
