@@ -1,6 +1,7 @@
 package day06;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -39,7 +40,9 @@ public class _02_WishListPOM extends BaseDriver {
 
         int randomSelection = Tools.randomGenerator(wle.productList.size()); // A random number is generated
         String wishItemText = wle.productList.get(randomSelection).getText();      // The name of the product in random was taken
+
         wle.wishButtons.get(randomSelection).click(); // The wish button of the relevant Random product was clicked
+        wait.until(ExpectedConditions.elementToBeClickable(wle.wishListLink));
         wle.wishListLink.click();
 
         // Is the product we are looking for on the list or not?

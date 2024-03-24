@@ -664,3 +664,9 @@
 2024-03-23 16:05:16.371 INFO  addToWishList test method has finished. --> Passed
 2024-03-24 16:53:27.242 INFO  Test Method has started.
 2024-03-24 16:53:34.808 INFO  proceedToCheckout test method has finished. --> Failed
+2024-03-24 17:01:25.167 INFO  Test Method has started.
+2024-03-24 17:01:27.484 INFO  addToWishList test method has finished. --> Failed
+2024-03-24 17:02:48.767 INFO  Test Method has started.
+2024-03-24 17:02:50.534 INFO  addToWishList test method has finished. --> Passed
+2024-03-24 17:03:59.892 INFO  Test Method has started.
+2024-03-24 17:04:02.178 INFO  addToWishList test method has finished. --> Passed

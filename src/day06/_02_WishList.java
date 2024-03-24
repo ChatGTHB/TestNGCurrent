@@ -3,6 +3,7 @@ package day06;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -50,6 +51,7 @@ public class _02_WishList extends BaseDriver {
 
         wishButtons.get(randomSelection).click(); // The wish button of the relevant Random product was clicked
 
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("wish list")));
         WebElement wishListLink = driver.findElement(By.xpath("//span[contains(text(),'Wish List')]"));
         wishListLink.click();
 
