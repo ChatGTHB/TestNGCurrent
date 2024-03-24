@@ -1,11 +1,11 @@
 package day04;
 
 
-import utility.BaseDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utility.BaseDriver;
 
 import java.util.ArrayList;
 import java.util.List;

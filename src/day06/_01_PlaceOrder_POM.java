@@ -1,10 +1,10 @@
 package day06;
 
-import utility.BaseDriver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utility.BaseDriver;
 
 public class _01_PlaceOrder_POM extends BaseDriver {
 

@@ -1,10 +1,9 @@
 package day06;
 
-import org.openqa.selenium.support.PageFactory;
-import utility.BaseDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import org.openqa.selenium.support.PageFactory;
+import utility.BaseDriver;
 
 import java.util.List;
 

@@ -5,8 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utility.BaseDriver;
 
-import java.time.Duration;
-
 public class _01_PlaceOrder_Elements {
 
     public _01_PlaceOrder_Elements() {

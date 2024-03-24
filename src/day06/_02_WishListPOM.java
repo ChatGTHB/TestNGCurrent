@@ -1,11 +1,11 @@
 package day06;
 
-import utility.BaseDriver;
-import utility.Tools;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import utility.BaseDriver;
+import utility.Tools;
 
 
 public class _02_WishListPOM extends BaseDriver {

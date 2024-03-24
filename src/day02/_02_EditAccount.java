@@ -1,11 +1,11 @@
 package day02;
 
 
-import utility.BaseDriver;
-import utility.Tools;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+import utility.BaseDriver;
+import utility.Tools;
 
 public class _02_EditAccount extends BaseDriver {
 
