@@ -66,6 +66,7 @@ public class BaseDriver {
         driver.quit();
     }
 
+
     @BeforeMethod
     public void beforeMethod() {
         logger4j2.info("Test Method has started.");
