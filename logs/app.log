@@ -670,3 +670,31 @@
 2024-03-24 17:02:50.534 INFO  addToWishList test method has finished. --> Passed
 2024-03-24 17:03:59.892 INFO  Test Method has started.
 2024-03-24 17:04:02.178 INFO  addToWishList test method has finished. --> Passed
+2024-03-25 13:35:50.036 INFO  Logging process has started.
+2024-03-25 13:35:56.705 INFO  Logging completed.
+2024-03-25 13:35:56.927 INFO  null test method has started.
+2024-03-25 13:36:04.245 INFO  proceedToCheckout test method has finished. --> Passed
+2024-03-25 13:36:09.641 INFO  Driver has been shut down.
+2024-03-25 13:47:21.427 INFO  Logging process started.
+2024-03-25 13:47:28.099 INFO  Logging completed.
+2024-03-25 13:47:28.333 INFO  The method started.
+2024-03-25 13:47:37.026 INFO  proceedToCheckout test method finished. --> Passed
+2024-03-25 13:47:42.373 INFO  Driver has been shut down.
+2024-03-25 13:53:16.707 INFO  Logging process started.
+2024-03-25 13:53:23.321 INFO  Logging completed.
+2024-03-25 13:53:23.538 INFO  The method started.
+2024-03-25 13:53:32.252 INFO  proceedToCheckout test method finished. --> Passed
+2024-03-25 13:53:37.578 INFO  Driver has been shut down.
+2024-03-25 13:56:10.030 INFO  The method has started.
+2024-03-25 13:56:17.798 INFO  proceedToCheckout test method finished. --> Passed
+2024-03-25 13:56:23.131 INFO  Driver has been shut down.
+2024-03-25 13:56:55.678 INFO  
+The method has started.
+2024-03-25 13:57:04.473 INFO  proceedToCheckout test method finished. --> Passed
+2024-03-25 13:57:09.819 INFO  Driver has been shut down.
+2024-03-25 13:58:23.968 INFO  The method has started.
+2024-03-25 13:59:00.733 INFO  proceedToCheckout test method finished. --> Failed
+2024-03-25 13:59:06.126 INFO  Driver has been shut down.
+2024-03-25 13:59:23.657 INFO  The method has started.
+2024-03-25 13:59:31.329 INFO  proceedToCheckout test method finished. --> Passed
+2024-03-25 13:59:36.719 INFO  Driver has been shut down.

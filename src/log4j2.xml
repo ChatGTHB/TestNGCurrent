@@ -5,8 +5,8 @@
         <!--         Call section-->
         <!--        # logger options: ALL -> DEBUG -> INFO -> WARN -> ERROR -> FATAL -> OFF-->
         <Root level="INFO">
-            <AppenderRef ref="LogToConsole"/>
-            <AppenderRef ref="LogToFile"/>
+            <AppenderRef ref="LogToConsole"/> <!--  Give output to console     -->
+            <AppenderRef ref="LogToFile"/>    <!--  Write to file              -->
         </Root>
     </loggers>
 
@@ -22,3 +22,6 @@
     </Appenders>
 
 </configuration>
+
+<!--        org.apache.logging.log4j:log4j-api:2.20.0  -->
+<!--        org.apache.logging.log4j:log4j-core:2.20.0 -->

@@ -22,7 +22,8 @@ public class BaseDriver {
 
     public static WebDriver driver; // SingletonDriver method
     public static WebDriverWait wait;
-    public static final org.apache.logging.log4j.Logger logger4j = LogManager.getLogger();
+    public static final org.apache.logging.log4j.Logger logger4j2 = LogManager.getLogger();
+
 
     @BeforeClass
     public void initialOperations() {  // The condition of this is that it is extends and takes place in the first place.
@@ -67,11 +68,11 @@ public class BaseDriver {
 
     @BeforeMethod
     public void beforeMethod() {
-        logger4j.info("Test Method has started.");
+        logger4j2.info("Test Method has started.");
     }
 
     @AfterMethod
     public void afterMethod(ITestResult result) {
-        logger4j.info(result.getName() + " test method has finished. --> " + (result.getStatus() == 1 ? "Passed" : "Failed"));
+        logger4j2.info(result.getName() + " test method has finished. --> " + (result.getStatus() == 1 ? "Passed" : "Failed"));
     }
 }
