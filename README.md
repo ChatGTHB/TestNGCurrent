@@ -67,10 +67,11 @@ Ensure that you have the necessary dependencies installed and navigate to the `s
 | Dependency          | Version  | Link  |
 |---------------------|----------|-------|
 | Java                | 11+      | [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) |
-| TestNG              | 7.9.0    | [TestNG](https://testng.org/doc/download.html) |
-| Selenium WebDriver  | 4.18.1   | [Selenium](https://www.selenium.dev/downloads/) |
-| Log4j2              | 2.20.0   | [Log4j2](https://logging.apache.org/log4j/2.x/download.html) |
-| Commons IO          | 2.11.0   | [Commons IO](https://commons.apache.org/proper/commons-io/download_io.cgi) |
+| TestNG              | 7.9.0    | [TestNG](https://mvnrepository.com/artifact/org.testng/testng/7.9.0) |
+| Selenium WebDriver  | 4.18.1   | [Selenium](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.18.1) |
+| Log4j2              | 2.20.0   | [Log4j2 API](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.20.0), [Log4j2 Core](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.20.0) |
+| Commons IO          | 2.11.0   | [Commons IO](https://mvnrepository.com/artifact/commons-io/commons-io/2.11.0) |
+
 
 ## ⚙️ Configuration
 Configuration details can be found in the `testng.xml` file and other relevant configuration files within the project. Log4j2 configuration is set up in the `log4j2.xml` file to provide detailed logging.
