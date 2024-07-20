@@ -124,4 +124,3 @@ If problems persist, you may seek help from the community or consult the officia
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 For more information, visit the [TestNGCurrent repository](https://github.com/ChatGTHB/TestNGCurrent) on GitHub.
-```
