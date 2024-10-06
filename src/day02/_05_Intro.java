@@ -13,5 +13,10 @@ public class _05_Intro {
     public void _05_Intro_Test2() {
         System.out.println("_05_Intro Test2");
     }
+
+    @Test
+    public void _05_Intro_Test3() {
+        System.out.println("_05_Intro Test3");
+    }
 }
 
