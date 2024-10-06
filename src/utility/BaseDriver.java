@@ -35,10 +35,10 @@ public class BaseDriver {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));  // 30 sec delay: time to find the element
         wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
-        loginTest();
+        login();
     }
 
-    public void loginTest() {
+    public void login() {
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
         Tools.wait(2);
 
