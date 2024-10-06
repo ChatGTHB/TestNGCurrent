@@ -1,11 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="mySuit">
-
-    <test name="myTest1">
+<suite name="My Suit">
+    <test name="My Test">
         <classes>
-            <class name="day02._03_Intro"></class>
+            <class name="day02._04_Intro"/>
         </classes>
     </test>
-
 </suite>

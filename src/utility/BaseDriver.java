@@ -43,10 +43,10 @@ public class BaseDriver {
         Tools.wait(2);
 
         WebElement inputEmail = driver.findElement(By.id("input-email"));
-        inputEmail.sendKeys("testng1@gmail.com");
+        inputEmail.sendKeys("test123@testing.com");
 
         WebElement inputPassword = driver.findElement(By.id("input-password"));
-        inputPassword.sendKeys("123qweasd");
+        inputPassword.sendKeys("Password");
 
         WebElement loginButton = driver.findElement(By.xpath("//input[@type='submit']"));
         loginButton.click();

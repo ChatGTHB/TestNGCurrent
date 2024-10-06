@@ -710,3 +710,27 @@ The method has started.
 2024-10-06 18:57:18.478 INFO  subscribeFunctionNo test method has finished. --> Passed
 2024-10-06 18:57:18.479 INFO  Test Method has started.
 2024-10-06 18:57:19.689 INFO  subscribeFunctionForBoth test method has finished. --> Passed
+2024-10-06 21:30:49.996 INFO  Test Method has started.
+2024-10-06 21:30:51.814 INFO  editAccount test method has finished. --> Passed
+2024-10-06 21:39:26.719 INFO  Test Method has started.
+2024-10-06 21:39:30.599 INFO  AddAddress test method has finished. --> Passed
+2024-10-06 21:39:30.605 INFO  Test Method has started.
+2024-10-06 21:39:32.335 INFO  EditAddress test method has finished. --> Passed
+2024-10-06 21:39:32.337 INFO  Test Method has started.
+2024-10-06 21:39:33.378 INFO  DeleteAddress test method has finished. --> Passed
+2024-10-06 21:40:42.259 INFO  Test Method has started.
+2024-10-06 21:40:46.101 INFO  addAddress test method has finished. --> Passed
+2024-10-06 21:40:46.107 INFO  Test Method has started.
+2024-10-06 21:40:48.143 INFO  editAddress test method has finished. --> Passed
+2024-10-06 21:40:48.145 INFO  Test Method has started.
+2024-10-06 21:40:49.370 INFO  deleteAddress test method has finished. --> Passed
+2024-10-06 21:53:56.100 INFO  Test Method has started.
+2024-10-06 21:53:59.135 INFO  addAddress test method has finished. --> Passed
+2024-10-06 21:53:59.139 INFO  Test Method has started.
+2024-10-06 21:54:01.218 INFO  editAddress test method has finished. --> Passed
+2024-10-06 21:54:01.221 INFO  Test Method has started.
+2024-10-06 21:54:02.213 INFO  deleteAddress test method has finished. --> Passed
+2024-10-06 23:03:53.146 INFO  Test Method has started.
+2024-10-06 23:03:55.254 INFO  EditAccount test method has finished. --> Passed
+2024-10-06 23:06:33.870 INFO  Test Method has started.
+2024-10-06 23:06:36.123 INFO  EditAccount test method has finished. --> Passed
