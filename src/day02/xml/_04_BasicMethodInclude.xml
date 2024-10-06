@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suit">
+    <test name="My Test">
+        <classes>
+            <class name="day02._04_Intro">
+                <methods>
+                    <include name="_04_Intro_Test1"/>
+                    <!-- I write down the methods I want to work with.-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
