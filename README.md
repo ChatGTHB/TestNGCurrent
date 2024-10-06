@@ -37,7 +37,7 @@ git clone https://github.com/ChatGTHB/TestNGCurrent.git
     - `org.apache.logging.log4j:log4j-api:2.20.0`
     - `org.apache.logging.log4j:log4j-core:2.20.0`
     - `commons-io:commons-io:2.11.0`
-    - `org.seleniumhq.selenium:selenium-java:4.18.1`
+    - `org.seleniumhq.selenium:selenium-java:4.25.0`
     - `org.slf4j:slf4j-nop:1.7.30`
     - `org.testng:testng:7.9.0`
 5. Click `OK` to add the selected libraries.
@@ -64,13 +64,13 @@ Ensure that you have the necessary dependencies installed and navigate to the `s
 - **Logging**: Integrated logging using Log4j2 for tracking and debugging test execution.
 
 ## 📦 Dependencies
-| Dependency          | Version  | Link  |
-|---------------------|----------|-------|
-| Java                | 11+      | [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) |
-| TestNG              | 7.9.0    | [TestNG](https://mvnrepository.com/artifact/org.testng/testng/7.9.0) |
-| Selenium WebDriver  | 4.18.1   | [Selenium](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.18.1) |
-| Log4j2              | 2.20.0   | [Log4j2 API](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.20.0), [Log4j2 Core](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.20.0) |
-| Commons IO          | 2.11.0   | [Commons IO](https://mvnrepository.com/artifact/commons-io/commons-io/2.11.0) |
+| Dependency          | Version | Link                                                                                                                                                                                     |
+|---------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Java                | 11+     | [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)                                                                                                             |
+| TestNG              | 7.9.0   | [TestNG](https://mvnrepository.com/artifact/org.testng/testng/7.9.0)                                                                                                                     |
+| Selenium WebDriver  | 4.25.0  | [Selenium](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.25.10)                                                                                             |
+| Log4j2              | 2.20.0  | [Log4j2 API](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.20.0), [Log4j2 Core](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.20.0) |
+| Commons IO          | 2.11.0  | [Commons IO](https://mvnrepository.com/artifact/commons-io/commons-io/2.11.0)                                                                                                            |
 
 
 ## ⚙️ Configuration
