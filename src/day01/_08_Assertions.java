@@ -3,11 +3,10 @@ package day01;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class _07_Assertions {
+public class _08_Assertions {
 
     @Test
     public void equalsExample() {
-
         String s1 = "Hello";
         String s2 = "Hello1";
 
@@ -18,7 +17,6 @@ public class _07_Assertions {
 
     @Test
     public void notEqualsExample() {
-
         String s1 = "Hello";
         String s2 = "Hello1";
 
@@ -27,7 +25,6 @@ public class _07_Assertions {
 
     @Test
     public void trueExample() {
-
         String s1 = "Hello";
         String s2 = "Hello";
 
@@ -36,7 +33,6 @@ public class _07_Assertions {
 
     @Test
     public void trueExample2() {
-
         int number1 = 5;
         int number2 = 5;
 
@@ -45,7 +41,6 @@ public class _07_Assertions {
 
     @Test
     public void nullExample() {
-
         String s1 = null;
 
         Assert.assertNull(s1, "Actual, did not become NULL.");
@@ -53,9 +48,7 @@ public class _07_Assertions {
 
     @Test
     public void directFail() {
-
         int a = 56;
-
 
         if (a != 55) {
             Assert.fail();

@@ -702,3 +702,11 @@ The method has started.
 2024-10-06 18:33:01.507 INFO  loginTest test method has finished. --> Failed
 2024-10-06 18:33:57.414 INFO  Test Method has started.
 2024-10-06 18:34:28.078 INFO  loginTest test method has finished. --> Failed
+2024-10-06 18:54:17.178 INFO  Test Method has started.
+2024-10-06 18:54:20.439 INFO  loginTest test method has finished. --> Passed
+2024-10-06 18:57:16.125 INFO  Test Method has started.
+2024-10-06 18:57:17.377 INFO  subscribeFunctionYes test method has finished. --> Passed
+2024-10-06 18:57:17.379 INFO  Test Method has started.
+2024-10-06 18:57:18.478 INFO  subscribeFunctionNo test method has finished. --> Passed
+2024-10-06 18:57:18.479 INFO  Test Method has started.
+2024-10-06 18:57:19.689 INFO  subscribeFunctionForBoth test method has finished. --> Passed

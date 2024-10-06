@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import utility.BaseDriver;
 import utility.Tools;
 
-public class _08_SubscribeNewsLetter extends BaseDriver {
+public class _09_SubscribeNewsLetter extends BaseDriver {
 
     /**
      * Scenario:
@@ -32,7 +32,6 @@ public class _08_SubscribeNewsLetter extends BaseDriver {
 
     @Test(priority = 1)
     public void subscribeFunctionYes() {
-
         WebElement newsLetterLink = driver.findElement(newsLetterLinkLoc);
         newsLetterLink.click();
 
@@ -47,7 +46,6 @@ public class _08_SubscribeNewsLetter extends BaseDriver {
 
     @Test(priority = 2)
     public void subscribeFunctionNo() {
-
         WebElement newsLetterLink = driver.findElement(newsLetterLinkLoc);
         newsLetterLink.click();
 
@@ -62,7 +60,6 @@ public class _08_SubscribeNewsLetter extends BaseDriver {
 
     @Test(priority = 3)
     public void subscribeFunctionForBoth() {
-
         WebElement newsLetterLink = driver.findElement(newsLetterLinkLoc);
         newsLetterLink.click();
 
