@@ -27,7 +27,6 @@ public class Tools {
         javascriptExecutor.executeScript("arguments[0].click();", element); // javascriptExecutor click: click from within the page
     }
 
-
     public static int randomGenerator(int limit) {
         return (int) (Math.random() * limit);
     }

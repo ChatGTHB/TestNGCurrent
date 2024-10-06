@@ -698,3 +698,7 @@ The method has started.
 2024-03-25 13:59:23.657 INFO  The method has started.
 2024-03-25 13:59:31.329 INFO  proceedToCheckout test method finished. --> Passed
 2024-03-25 13:59:36.719 INFO  Driver has been shut down.
+2024-10-06 18:32:30.827 INFO  Test Method has started.
+2024-10-06 18:33:01.507 INFO  loginTest test method has finished. --> Failed
+2024-10-06 18:33:57.414 INFO  Test Method has started.
+2024-10-06 18:34:28.078 INFO  loginTest test method has finished. --> Failed

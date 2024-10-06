@@ -1,6 +1,5 @@
 package day01;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -38,6 +37,8 @@ public class _05_Enable {
 
     @BeforeClass
     public void initialOperations() {  // The condition of this is that it is extends and takes place in the first place.
+        System.out.println("Start-up operations are being carried out.");
+
         Logger logger = Logger.getLogger(""); // Get output logs.
         logger.setLevel(Level.SEVERE);              // Show only ERRORs
 
@@ -50,6 +51,7 @@ public class _05_Enable {
 
     @AfterClass
     public static void finishingOperations() {
+        System.out.println("Finishing operations are being carried out.");
         Tools.wait(5);
         driver.quit();
     }

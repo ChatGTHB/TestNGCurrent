@@ -11,8 +11,7 @@ public class _02_Sorting {
     }
 
     @Test(priority = 2)
-    public void loginTest()
-    {
+    public void loginTest() {
         System.out.println("Login Test");
     }
 
@@ -25,8 +24,4 @@ public class _02_Sorting {
     public void driverShutdownProcedures() {
         System.out.println("Driver Shutdown Procedures");
     }
-
 }
-
-
-

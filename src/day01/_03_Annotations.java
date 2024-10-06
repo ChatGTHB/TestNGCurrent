@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class _03_Annotations {
 
     @AfterClass // It works after the inside of the class
-    public void bitisIslemleri() {
+    public void finishingOperations() {
         System.out.println("after class operations worked");
     }
 
@@ -22,8 +22,7 @@ public class _03_Annotations {
     }
 
     @BeforeClass  // It works before the inside of the class
-    public void baslangicIslemleri() {
-        System.out.println("after class operations worked");
+    public void startUpOperations() {
+        System.out.println("before class operations worked");
     }
-
 }

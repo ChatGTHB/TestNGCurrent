@@ -1,6 +1,5 @@
 package day01;
 
-
 import org.testng.annotations.Test;
 
 public class _01_Intro {
@@ -41,5 +40,4 @@ public class _01_Intro {
     public void closeDriver() {
         System.out.println("closeDriver done");
     }
-
 }

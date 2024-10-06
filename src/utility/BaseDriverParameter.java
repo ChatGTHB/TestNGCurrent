@@ -25,7 +25,6 @@ public class BaseDriverParameter {
     @BeforeClass
     @Parameters("browserType")
     public void initialOperations(String browserType) {
-
         Logger logger = Logger.getLogger("");
         logger.setLevel(Level.SEVERE);
 
@@ -55,7 +54,6 @@ public class BaseDriverParameter {
     }
 
     public void loginTest() {
-
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
 
         WebElement inputEmail = driver.findElement(By.id("input-email"));

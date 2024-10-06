@@ -24,10 +24,8 @@ public class BaseDriver {
     public static WebDriverWait wait;
     public static final org.apache.logging.log4j.Logger logger4j2 = LogManager.getLogger();
 
-
     @BeforeClass
     public void initialOperations() {  // The condition of this is that it is extends and takes place in the first place.
-
         Logger logger = Logger.getLogger(""); // Get output logs.
         logger.setLevel(Level.SEVERE);              // Show only ERRORs
 
@@ -41,9 +39,6 @@ public class BaseDriver {
     }
 
     public void loginTest() {
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-
         driver.get("https://opencart.abstracta.us/index.php?route=account/login");
         Tools.wait(2);
 
@@ -65,7 +60,6 @@ public class BaseDriver {
         Tools.wait(5);
         driver.quit();
     }
-
 
     @BeforeMethod
     public void beforeMethod() {
