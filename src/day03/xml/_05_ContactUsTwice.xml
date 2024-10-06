@@ -1,8 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="mySuit">
-
-    <test name="myTest1">
+<suite name="My Suit">
+    <test name="My Test 1">
         <parameter name="message" value="Hello testing world!"/>
 
         <classes>
@@ -10,13 +9,12 @@
         </classes>
     </test>
 
-    <test name="myTest2">
+    <test name="My Test 2">
         <parameter name="message" value="The most important feature of TestNG is XML file"/>
 
         <classes>
             <class name="day03._03_ContactUsParameter"/>
         </classes>
     </test>
-
 </suite>
 

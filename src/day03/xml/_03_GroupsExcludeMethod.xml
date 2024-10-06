@@ -1,16 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="mySuit">
-
-    <test name="myTest1">
+<suite name="My Suit">
+    <test name="My Test">
         <!-- Which groups will NOT be run -->
         <groups>
             <run>
                 <exclude name="Smoke Test"/>
             </run>
         </groups>
-
-
         <!--Section where the classes will be run are written-->
         <classes>
             <class name="day03._01_Groups">
@@ -20,7 +17,6 @@
             </class>
         </classes>
     </test>
-
 </suite>
 
         <!-- Run except Smoke Test, also excluding test 7 -->

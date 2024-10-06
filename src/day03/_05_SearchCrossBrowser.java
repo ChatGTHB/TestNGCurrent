@@ -29,7 +29,6 @@ public class _05_SearchCrossBrowser extends BaseDriverParameter {
     @Test
     @Parameters("searchText")
     void searchFunction(String searchedWord) {
-
         WebElement searchInput = driver.findElement(By.name("search"));
         searchInput.sendKeys(searchedWord + Keys.ENTER);
 

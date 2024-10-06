@@ -1,13 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="mySuit">
-
-    <test name="myTest1">
+<suite name="My Suit">
+    <test name="My Test">
         <parameter name="message" value="Hello testing world!"/>
 
         <classes>
             <class name="day03._03_ContactUsParameter"/>
         </classes>
     </test>
-
 </suite>

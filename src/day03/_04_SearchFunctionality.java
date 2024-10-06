@@ -29,7 +29,6 @@ public class _04_SearchFunctionality extends BaseDriver {
     @Test
     @Parameters("searchText")
     void searchFunction(String searchedWord) {
-
         WebElement searchInput = driver.findElement(By.name("search"));
         searchInput.sendKeys(searchedWord + Keys.ENTER);
 

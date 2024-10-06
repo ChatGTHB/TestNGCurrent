@@ -1,8 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="mySuit">
-
-    <test name="myTest1">
+<suite name="My Suit">
+    <test name="My Test 1">
         <parameter name="searchText" value="mac"/>
         <parameter name="browserType" value="edge"/>
 
@@ -11,7 +10,7 @@
         </classes>
     </test>
 
-    <test name="myTest2">
+    <test name="My Test 2">
         <parameter name="searchText" value="samsung"/>
         <parameter name="browserType" value="chrome"/>
 
@@ -19,6 +18,5 @@
             <class name="day03._05_SearchCrossBrowser"> </class>
         </classes>
     </test>
-
 </suite>
 
