@@ -1,20 +1,28 @@
 
 # TestNGCurrent
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![TestNG](https://img.shields.io/badge/TestNG-FF9E2C?style=for-the-badge&logo=testng&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Log4j2](https://img.shields.io/badge/Log4j2-ff1100?style=for-the-badge&logo=apache&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+
 ## 📝 Introduction
-TestNGCurrent is a comprehensive training repository designed to master TestNG and Selenium WebDriver, essential tools for Java applications. This repository provides in-depth guidance on writing robust and maintainable test suites, leveraging a broad spectrum of TestNG and Selenium features. Whether you're new to testing or looking to enhance your skills, TestNGCurrent offers practical examples, detailed documentation, and a structured learning path to help you effectively automate and manage your tests.
-## 📑 Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Dependencies](#dependencies)
-- [Configuration](#configuration)
-- [Documentation](#documentation)
-- [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
+Welcome to the **TestNGCurrent** repository! This project is a comprehensive training repository designed to master TestNG and Selenium WebDriver, essential tools for Java applications. This repository provides in-depth guidance on writing robust and maintainable test suites, leveraging a broad spectrum of TestNG and Selenium features. Whether you're new to testing or looking to enhance your skills, TestNGCurrent offers practical examples, detailed documentation, and a structured learning path to help you effectively automate and manage your tests.
+
+## Table of Contents
+- [💡 Introduction](#💡-introduction)
+- [📥 Installation](#📥-installation)
+- [⚙️ Usage](#⚙️-usage)
+- [✨ Features](#✨-features)
+- [📦 Dependencies](#📦-dependencies)
+- [🔧 Configuration](#🔧-configuration)
+- [📚 Documentation](#📚-documentation)
+- [💡 Examples](#💡-examples)
+- [🛠️ Troubleshooting](#🛠️-troubleshooting)
+- [👥 Contributors](#👥-contributors)
+- [🤝 Contributing](#🤝-contributing)
+- [📜 License](#📜-license)
 
 ## 💻 Installation
 ### Cloning the Repository
@@ -44,8 +52,29 @@ git clone https://github.com/ChatGTHB/TestNGCurrent.git
 
 For each library, you can also use a higher version if available.
 
-## 🚀 Usage
+## ⚙️ Usage
 Ensure that you have the necessary dependencies installed and navigate to the `src` directory to set up and execute the test cases.
+
+### 1. Running from XML File
+Run your tests from the `testng.xml` file by following these steps:
+
+```bash
+# From IntelliJ IDEA or Eclipse
+Right-click and select 'Run testng.xml'.
+
+# To run from command line with Maven
+mvn test -DsuiteXmlFile=testng.xml
+```
+
+### 2. Running Test Classes Directly
+You can directly run test classes annotated with TestNG:
+
+```bash
+# Right-click on the class in IntelliJ IDEA and select 'Run ClassName'.
+
+# To run all test classes with Maven
+mvn test
+```
 
 ## ✨ Features
 - **Sorting**: Organize tests in a specific order.
@@ -73,7 +102,7 @@ Ensure that you have the necessary dependencies installed and navigate to the `s
 | Commons IO          | 2.11.0  | [Commons IO](https://mvnrepository.com/artifact/commons-io/commons-io/2.11.0)                                                                                                            |
 
 
-## ⚙️ Configuration
+## 🔧 Configuration
 Configuration details can be found in the `testng.xml` file and other relevant configuration files within the project. Log4j2 configuration is set up in the `log4j2.xml` file to provide detailed logging.
 
 ### Log4j2 Integration
@@ -121,7 +150,15 @@ If problems persist, you may seek help from the community or consult the officia
 ## 👥 Contributors
 - **ChatGTHB**: [GitHub Profile](https://github.com/ChatGTHB)
 
-## 📝 License
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a Pull Request.
+
+## 📜 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 For more information, visit the [TestNGCurrent repository](https://github.com/ChatGTHB/TestNGCurrent) on GitHub.
