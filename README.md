@@ -11,18 +11,18 @@
 Welcome to the **TestNGCurrent** repository! This project is a comprehensive training repository designed to master TestNG and Selenium WebDriver, essential tools for Java applications. This repository provides in-depth guidance on writing robust and maintainable test suites, leveraging a broad spectrum of TestNG and Selenium features. Whether you're new to testing or looking to enhance your skills, TestNGCurrent offers practical examples, detailed documentation, and a structured learning path to help you effectively automate and manage your tests.
 
 ## Table of Contents
-- [💡 Introduction](#💡-introduction)
-- [📥 Installation](#📥-installation)
-- [⚙️ Usage](#⚙️-usage)
-- [✨ Features](#✨-features)
-- [📦 Dependencies](#📦-dependencies)
-- [🔧 Configuration](#🔧-configuration)
-- [📚 Documentation](#📚-documentation)
-- [💡 Examples](#💡-examples)
-- [🛠️ Troubleshooting](#🛠️-troubleshooting)
-- [👥 Contributors](#👥-contributors)
-- [🤝 Contributing](#🤝-contributing)
-- [📜 License](#📜-license)
+- [💡 Introduction](#introduction)
+- [📥 Installation](#installation)
+- [⚙️ Usage](#usage)
+- [✨ Features](#features)
+- [📦 Dependencies](#dependencies)
+- [🔧 Configuration](#configuration)
+- [📚 Documentation](#documentation)
+- [💡 Examples](#examples)
+- [🛠️ Troubleshooting](#troubleshooting)
+- [👥 Contributors](#contributors)
+- [🤝 Contributing](#contributing)
+- [📜 License](#license)
 
 ## 💻 Installation
 ### Cloning the Repository
