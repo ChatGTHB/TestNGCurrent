@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-
     <loggers>
         <!--         Call section-->
         <!--        # logger options: ALL -> DEBUG -> INFO -> WARN -> ERROR -> FATAL -> OFF-->
@@ -20,7 +19,6 @@
             <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %msg\n"/>
         </File>
     </Appenders>
-
 </configuration>
 
 <!--        org.apache.logging.log4j:log4j-api:2.20.0  -->

@@ -734,3 +734,5 @@ The method has started.
 2024-10-06 23:03:55.254 INFO  EditAccount test method has finished. --> Passed
 2024-10-06 23:06:33.870 INFO  Test Method has started.
 2024-10-06 23:06:36.123 INFO  EditAccount test method has finished. --> Passed
+2024-10-10 18:02:55.204 INFO  Test Method has started.
+2024-10-10 18:02:57.132 INFO  addToCart test method has finished. --> Passed
