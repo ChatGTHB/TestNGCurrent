@@ -736,3 +736,41 @@ The method has started.
 2024-10-06 23:06:36.123 INFO  EditAccount test method has finished. --> Passed
 2024-10-10 18:02:55.204 INFO  Test Method has started.
 2024-10-10 18:02:57.132 INFO  addToCart test method has finished. --> Passed
+2024-10-10 22:14:18.413 INFO  Test Method has started.
+2024-10-10 22:14:19.110 INFO  contactUs test method has finished. --> Failed
+2024-10-10 22:14:32.917 INFO  Test Method has started.
+2024-10-10 22:14:34.064 INFO  contactUs test method has finished. --> Passed
+2024-10-10 22:15:40.108 INFO  Test Method has started.
+2024-10-10 22:15:41.292 INFO  contactUs test method has finished. --> Passed
+2024-10-10 22:15:57.458 INFO  Test Method has started.
+2024-10-10 22:15:58.719 INFO  contactUs test method has finished. --> Passed
+2024-10-10 22:16:58.350 INFO  Test Method has started.
+2024-10-10 22:16:59.292 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:17:14.780 INFO  Test Method has started.
+2024-10-10 22:17:15.400 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:24:15.308 INFO  Test Method has started.
+2024-10-10 22:24:16.183 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:27:13.178 INFO  Test Method has started.
+2024-10-10 22:27:14.725 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:27:29.289 INFO  Test Method has started.
+2024-10-10 22:27:30.136 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:28:00.246 INFO  Test Method has started.
+2024-10-10 22:28:01.044 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:28:37.466 INFO  Test Method has started.
+2024-10-10 22:29:07.590 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:30:12.031 INFO  Test Method has started.
+2024-10-10 22:30:42.144 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:30:53.682 INFO  Test Method has started.
+2024-10-10 22:30:54.394 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:37:42.442 INFO  Test Method has started.
+2024-10-10 22:37:42.495 INFO  Test Method has started.
+2024-10-10 22:37:44.059 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:37:44.390 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:37:51.237 INFO  Test Method has started.
+2024-10-10 22:38:21.340 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:40:12.606 INFO  Test Method has started.
+2024-10-10 22:40:12.760 INFO  Test Method has started.
+2024-10-10 22:40:15.431 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:40:15.913 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:40:22.581 INFO  Test Method has started.
+2024-10-10 22:40:52.657 INFO  searchFunction test method has finished. --> Passed

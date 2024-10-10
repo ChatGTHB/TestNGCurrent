@@ -1,6 +1,5 @@
 package day03;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -11,16 +10,17 @@ import utility.BaseDriver;
 public class _03_ContactUsParameter extends BaseDriver {
 
     /**
-     * Scenario:
+     Scenario:
      1- Click ContactUs
      2- Write a message of at least 10 characters in the message box.
-     3- After submitting, verify the success text in the url.
+     3- After submitting, verify the success text in the URL.
+
      ---------------------------------------------------------------
 
      Senaryo:
      1- ContactUs'a tıklayınız
      2- Mesaj kutusuna en az 10 karakterlik bir mesaj yazınız.
-     3- Submit ettikten sonra url'deki success yazısını doğrulayınız.
+     3- Submit ettikten sonra URL'deki success yazısını doğrulayınız.
      */
 
     @Test

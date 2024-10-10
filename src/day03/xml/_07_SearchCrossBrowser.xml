@@ -3,7 +3,7 @@
 <suite name="My Suit">
     <test name="My Test 1">
         <parameter name="searchText" value="mac"/>
-        <parameter name="browserType" value="edge"/>
+        <parameter name="browserType" value="firefox"/>
 
         <classes>
             <class name="day03._05_SearchCrossBrowser"> </class>
@@ -12,7 +12,7 @@
 
     <test name="My Test 2">
         <parameter name="searchText" value="samsung"/>
-        <parameter name="browserType" value="chrome"/>
+        <parameter name="browserType" value="edge"/>
 
         <classes>
             <class name="day03._05_SearchCrossBrowser"> </class>

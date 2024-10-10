@@ -1,6 +1,5 @@
 package day03;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,18 +11,19 @@ import utility.BaseDriverParameter;
 import java.util.List;
 
 public class _05_SearchCrossBrowser extends BaseDriverParameter {
+
     /**
-     * Scenario:
-     * 1- Open the site.
-     * 2- Search by sending the word mac.
-     * 3- Verify that the word "mac" is included in the results.
-     * 4- Do the same for Samsung.
-     * ------------------------------------------------------------
-     * Senaryo:
-     * 1- Siteyi açınız.
-     * 2- mac kelimesini göndererek aratınız.
-     * 3- Çıkan sonuçlarda "mac" kelimesinin geçtiğini doğrulayınız.
-     * 4- Aynı işlemi samsung için de yapınız.
+        Scenario:
+        1- Open the site.
+        2- Search by sending the word mac.
+        3- Verify that the word "mac" is included in the results.
+        4- Do the same for Samsung.
+        ------------------------------------------------------------
+        Senaryo:
+        1- Siteyi açınız.
+        2- mac kelimesini göndererek aratınız.
+        3- Çıkan sonuçlarda "mac" kelimesinin geçtiğini doğrulayınız.
+        4- Aynı işlemi samsung için de yapınız.
      */
 
     @Test
