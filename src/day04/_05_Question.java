@@ -1,6 +1,5 @@
 package day04;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -14,16 +13,13 @@ import java.util.List;
 public class _05_Question extends BaseDriver {
 
     /**
-     * Do the Search function that we did in the previous lessons with data provider for mac, ipod and samsung.
-     * <p>
-     * ----------------------*****************************************---------------------------------------
-     * <p>
-     * Daha önceki derslerde yaptğımız Search fonksiyonunu mac,ipod ve samsung için data provider ile yapınız.
+        Do the Search function that we did in the previous lessons with data provider for mac, ipod and samsung.
+        ----------------------*****************************************---------------------------------------
+        Daha önceki derslerde yaptğımız Search fonksiyonunu mac,ipod ve samsung için data provider ile yapınız.
      */
 
     @Test(dataProvider = "getData")
     public void searchFunction(String willBeSearchText) {
-
         WebElement searchInput = driver.findElement(By.name("search"));
         searchInput.clear();
         searchInput.sendKeys(willBeSearchText + Keys.ENTER);

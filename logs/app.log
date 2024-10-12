@@ -774,3 +774,9 @@ The method has started.
 2024-10-10 22:40:15.913 INFO  searchFunction test method has finished. --> Passed
 2024-10-10 22:40:22.581 INFO  Test Method has started.
 2024-10-10 22:40:52.657 INFO  searchFunction test method has finished. --> Passed
+2024-10-10 22:47:44.406 INFO  Test Method has started.
+2024-10-10 22:47:45.499 INFO  test test method has finished. --> Passed
+2024-10-10 22:47:51.809 INFO  Test Method has started.
+2024-10-10 22:47:53.960 INFO  test test method has finished. --> Passed
+2024-10-11 02:31:51.327 INFO  Test Method has started.
+2024-10-11 02:31:53.115 INFO  EditAccount test method has finished. --> Passed

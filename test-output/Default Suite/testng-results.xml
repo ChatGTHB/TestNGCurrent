@@ -6,7 +6,7 @@
     <groups>
     </groups>
     <test started-at="2024-03-25T17:30:48 CET" name="TestNGCurrent" finished-at="2024-03-25T17:30:48 CET" duration-ms="166">
-      <class name="day04._04_DataProvider_Multidimensional">
+      <class name="day04._04_DataProviderMultidimensional">
         <test-method signature="userTest(java.lang.String,java.lang.String)[pri:0, instance:day04._04_DataProvider_Multidimensional@76f2bbc1]" started-at="2024-03-25T17:30:48 CET" name="userTest" data-provider="getUserData" finished-at="2024-03-25T17:30:48 CET" duration-ms="6" status="PASS">
           <params>
             <param index="0">
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userTest -->
-      </class> <!-- day04._04_DataProvider_Multidimensional -->
+      </class> <!-- day04._04_DataProviderMultidimensional -->
     </test> <!-- TestNGCurrent -->
   </suite> <!-- Default Suite -->
 </testng-results>

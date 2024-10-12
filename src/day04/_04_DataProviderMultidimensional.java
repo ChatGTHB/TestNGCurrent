@@ -3,7 +3,7 @@ package day04;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class _04_DataProvider_Multidimensional {
+public class _04_DataProviderMultidimensional {
 
     @Test(dataProvider = "getUserData")
     public void userTest(String username, String password) {

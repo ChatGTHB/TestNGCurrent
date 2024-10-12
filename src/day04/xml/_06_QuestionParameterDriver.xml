@@ -1,23 +1,20 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="mySuit" parallel="tests" thread-count="2">
-
-    <test name="myTest1">
+<suite name="My Suit" parallel="tests" thread-count="2">
+    <test name="My Test 1">
         <parameter name="browserType" value="edge"/>
 
         <classes>
-            <class name="day04._06_Question_ParameterDriver"/>
+            <class name="day04._06_QuestionParameterDriver"/>
         </classes>
     </test>
 
-    <test name="myTest2">
+    <test name="My Test 2">
         <parameter name="browserType" value="chrome"/>
 
         <classes>
-            <class name="day04._06_Question_ParameterDriver"/>
+            <class name="day04._06_QuestionParameterDriver"/>
         </classes>
     </test>
-
-
 </suite>
 
