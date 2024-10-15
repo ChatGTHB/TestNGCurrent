@@ -780,3 +780,11 @@ The method has started.
 2024-10-10 22:47:53.960 INFO  test test method has finished. --> Passed
 2024-10-11 02:31:51.327 INFO  Test Method has started.
 2024-10-11 02:31:53.115 INFO  EditAccount test method has finished. --> Passed
+2024-10-12 23:13:23.765 INFO  Test Method has started.
+2024-10-12 23:13:24.824 INFO  searchFunction test method has finished. --> Passed
+2024-10-12 23:13:24.826 INFO  Test Method has started.
+2024-10-12 23:13:25.561 INFO  searchFunction test method has finished. --> Passed
+2024-10-12 23:13:25.563 INFO  Test Method has started.
+2024-10-12 23:13:26.308 INFO  searchFunction test method has finished. --> Passed
+2024-10-12 23:21:35.595 INFO  Test Method has started.
+2024-10-12 23:21:35.809 INFO  menuValidation test method has finished. --> Passed

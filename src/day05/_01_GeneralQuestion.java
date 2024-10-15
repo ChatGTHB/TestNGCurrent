@@ -30,7 +30,6 @@ public class _01_GeneralQuestion extends BaseDriver {
         List<WebElement> brandRows = driver.findElements(By.cssSelector("[id='content'] > div")); // brand rows
 
         for (int i = 0; i < letters.size(); i++) {
-
             List<WebElement> brands = brandRows.get(i).findElements(By.tagName("div"));  // brands in it
             // By.cssSelector("[class='col-sm-3']")
             // Note: xpath is not used when searching for an element in an element because it looks at the whole page.
