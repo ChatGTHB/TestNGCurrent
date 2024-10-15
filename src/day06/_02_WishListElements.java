@@ -8,11 +8,9 @@ import utility.BaseDriver;
 import java.util.List;
 
 public class _02_WishListElements {
-
     public _02_WishListElements() {
         PageFactory.initElements(BaseDriver.driver,this);
     }
-
     @FindBy(xpath = "//button[@data-original-title='Add to Wish List']")
     public List<WebElement> wishButtons;
 

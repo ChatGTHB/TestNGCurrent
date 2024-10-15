@@ -28,7 +28,6 @@ public class _03_Question extends BaseDriver {
 
     @Test
     public void addToCart() {
-
         _01_PlaceOrderElements poe=new _01_PlaceOrderElements();
         _02_WishListElements wle=new _02_WishListElements();
         poe.searchBox.sendKeys("ipod" + Keys.ENTER);

@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 import utility.BaseDriver;
 
 public class _01_PlaceOrderElements {
-
     public _01_PlaceOrderElements() {
         PageFactory.initElements(BaseDriver.driver, this);
     }
