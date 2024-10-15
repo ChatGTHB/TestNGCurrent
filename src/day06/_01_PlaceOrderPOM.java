@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utility.BaseDriver;
 
-public class _01_PlaceOrder_POM extends BaseDriver {
+public class _01_PlaceOrderPOM extends BaseDriver {
 
     /**
      * Scenario :
@@ -34,7 +34,7 @@ public class _01_PlaceOrder_POM extends BaseDriver {
     @Test
     public void proceedToCheckout() {
 
-        _01_PlaceOrder_Elements elements = new _01_PlaceOrder_Elements();
+        _01_PlaceOrderElements elements = new _01_PlaceOrderElements();
 
         elements.searchBox.sendKeys("ipod" + Keys.ENTER);
         elements.addToChart.click();
